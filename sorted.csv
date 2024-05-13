@@ -1,0 +1,352 @@
+Country,year,sum
+Australia,2013,113815
+Australia,2014,114165
+Australia,2015,108801
+Australia,2016,113167
+Australia,2017,121612
+Australia,2018,162776
+Australia,2019,195371
+Australia,2020,199313
+Australia,2021,213269
+Austria,2013,9108
+Austria,2014,9572
+Austria,2015,10140
+Austria,2016,11126
+Austria,2017,11633
+Austria,2018,12206
+Austria,2019,12663
+Austria,2020,13127
+Austria,2021,13992
+Belgium,2013,11155
+Belgium,2014,11754
+Belgium,2015,12305
+Belgium,2016,13918
+Belgium,2017,12619
+Belgium,2018,13659
+Belgium,2019,11472
+Belgium,2020,13922
+Belgium,2021,14263
+Brazil,2013,1762
+Brazil,2014,2877
+Brazil,2015,3405
+Brazil,2016,3555
+Brazil,2017,3966
+Brazil,2018,4087
+Brazil,2019,3922
+Brazil,2020,529
+Brazil,2021,3758
+Canada,2013,41829
+Canada,2014,44711
+Canada,2015,1935
+Canada,2016,1959
+Canada,2017,66299
+Canada,2018,1842
+Canada,2019,2044
+Canada,2020,2039
+Canada,2021,2580
+Chile,2013,404
+Chile,2014,426
+Chile,2015,52859
+Chile,2016,51417
+Chile,2017,563
+Chile,2018,77687
+Chile,2019,107082
+Chile,2020,135417
+Chile,2021,138369
+Colombia,2013,0
+Colombia,2014,0
+Colombia,2015,401
+Colombia,2016,504
+Colombia,2017,795
+Colombia,2018,641
+Colombia,2019,3892
+Colombia,2020,1995
+Colombia,2021,5076
+Costa Rica,2013,0
+Costa Rica,2014,0
+Costa Rica,2015,0
+Costa Rica,2016,609
+Costa Rica,2017,0
+Costa Rica,2018,940
+Costa Rica,2019,958
+Costa Rica,2020,1088
+Costa Rica,2021,1051
+Croatia,2013,0
+Croatia,2014,138
+Croatia,2015,0
+Croatia,2016,0
+Croatia,2017,1099
+Croatia,2018,0
+Croatia,2019,0
+Croatia,2020,0
+Croatia,2021,0
+Czechia,2013,8349
+Czechia,2014,8418
+Czechia,2015,100
+Czechia,2016,1105
+Czechia,2017,8426
+Czechia,2018,824
+Czechia,2019,881
+Czechia,2020,1017
+Czechia,2021,779
+Denmark,2013,7966
+Denmark,2014,8223
+Denmark,2015,8029
+Denmark,2016,8260
+Denmark,2017,10993
+Denmark,2018,8805
+Denmark,2019,9046
+Denmark,2020,9253
+Denmark,2021,9186
+Estonia,2013,255
+Estonia,2014,266
+Estonia,2015,8862
+Estonia,2016,11018
+Estonia,2017,848
+Estonia,2018,10891
+Estonia,2019,10766
+Estonia,2020,10373
+Estonia,2021,10743
+Finland,2013,3617
+Finland,2014,3974
+Finland,2015,452
+Finland,2016,707
+Finland,2017,4330
+Finland,2018,1041
+Finland,2019,1153
+Finland,2020,1346
+Finland,2021,1541
+France,2013,0
+France,2014,0
+France,2015,4394
+France,2016,4532
+France,2017,77509
+France,2018,4744
+France,2019,5236
+France,2020,5415
+France,2021,5143
+Germany,2013,32137
+Germany,2014,34012
+Germany,2015,0
+Germany,2016,0
+Germany,2017,41822
+Germany,2018,78837
+Germany,2019,83492
+Germany,2020,87514
+Germany,2021,86586
+Greece,2013,0
+Greece,2014,0
+Greece,2015,36370
+Greece,2016,38593
+Greece,2017,1218
+Greece,2018,44077
+Greece,2019,53835
+Greece,2020,52431
+Greece,2021,59213
+Hungary,2013,2738
+Hungary,2014,3065
+Hungary,2015,1354
+Hungary,2016,1471
+Hungary,2017,3863
+Hungary,2018,1273
+Hungary,2019,1364
+Hungary,2020,1094
+Hungary,2021,1533
+Iceland,2013,157
+Iceland,2014,214
+Iceland,2015,3095
+Iceland,2016,3383
+Iceland,2017,283
+Iceland,2018,4680
+Iceland,2019,5354
+Iceland,2020,6763
+Iceland,2021,6724
+Israel,2013,2187
+Israel,2014,5050
+Israel,2015,219
+Israel,2016,219
+Israel,2017,7973
+Israel,2018,313
+Israel,2019,345
+Israel,2020,273
+Israel,2021,398
+Italy,2013,14569
+Italy,2014,2202
+Italy,2015,5630
+Italy,2016,5718
+Italy,2017,2306
+Italy,2018,11285
+Italy,2019,9777
+Italy,2020,11255
+Italy,2021,9511
+Japan,2013,0
+Japan,2014,16989
+Japan,2015,2292
+Japan,2016,1420
+Japan,2017,19615
+Japan,2018,2648
+Japan,2019,2726
+Japan,2020,3030
+Japan,2021,2053
+Korea,2013,0
+Korea,2014,0
+Korea,2015,16273
+Korea,2016,18775
+Korea,2017,46316
+Korea,2018,20591
+Korea,2019,17704
+Korea,2020,12119
+Korea,2021,14793
+Latvia,2013,354
+Latvia,2014,337
+Latvia,2015,0
+Latvia,2016,0
+Latvia,2017,16293
+Latvia,2018,47930
+Latvia,2019,57175
+Latvia,2020,62104
+Latvia,2021,66665
+Lithuania,2013,550
+Lithuania,2014,648
+Lithuania,2015,0
+Lithuania,2016,15270
+Lithuania,2017,803
+Lithuania,2018,17805
+Lithuania,2019,20751
+Lithuania,2020,24471
+Lithuania,2021,25171
+Luxembourg,2013,652
+Luxembourg,2014,686
+Luxembourg,2015,530
+Luxembourg,2016,590
+Luxembourg,2017,989
+Luxembourg,2018,892
+Luxembourg,2019,990
+Luxembourg,2020,1219
+Luxembourg,2021,1476
+Mexico,2013,0
+Mexico,2014,0
+Mexico,2015,705
+Mexico,2016,760
+Mexico,2017,869
+Mexico,2018,1028
+Mexico,2019,1207
+Mexico,2020,1207
+Mexico,2021,1282
+Netherlands,2013,18661
+Netherlands,2014,18906
+Netherlands,2015,701
+Netherlands,2016,839
+Netherlands,2017,0
+Netherlands,2018,847
+Netherlands,2019,864
+Netherlands,2020,872
+Netherlands,2021,1153
+New Zealand,2013,12421
+New Zealand,2014,13667
+New Zealand,2015,0
+New Zealand,2016,0
+New Zealand,2017,24031
+New Zealand,2018,0
+New Zealand,2019,0
+New Zealand,2020,0
+New Zealand,2021,0
+Norway,2013,2537
+Norway,2014,2613
+Norway,2015,21363
+Norway,2016,22640
+Norway,2017,19549
+Norway,2018,25822
+Norway,2019,28359
+Norway,2020,30521
+Norway,2021,34084
+Poland,2013,4750
+Poland,2014,5499
+Poland,2015,16758
+Poland,2016,20530
+Poland,2017,3220
+Poland,2018,19740
+Poland,2019,18937
+Poland,2020,19782
+Poland,2021,14620
+Portugal,2013,2278
+Portugal,2014,2570
+Portugal,2015,2677
+Portugal,2016,2964
+Portugal,2017,9921
+Portugal,2018,3173
+Portugal,2019,3191
+Portugal,2020,3023
+Portugal,2021,3271
+Romania,2013,3405
+Romania,2014,3756
+Romania,2015,6886
+Romania,2016,8780
+Romania,2017,3784
+Romania,2018,10713
+Romania,2019,11279
+Romania,2020,15677
+Romania,2021,19008
+Slovak Republic,2013,2732
+Slovak Republic,2014,2906
+Slovak Republic,2015,3228
+Slovak Republic,2016,3527
+Slovak Republic,2017,5065
+Slovak Republic,2018,4744
+Slovak Republic,2019,5673
+Slovak Republic,2020,7064
+Slovak Republic,2021,8093
+Spain,2013,8447
+Spain,2014,8835
+Spain,2015,4326
+Spain,2016,4420
+Spain,2017,2625
+Spain,2018,5271
+Spain,2019,5687
+Spain,2020,5931
+Spain,2021,6301
+Sweden,2013,8247
+Sweden,2014,7469
+Sweden,2015,2733
+Sweden,2016,3038
+Sweden,2017,18047
+Sweden,2018,2495
+Sweden,2019,2522
+Sweden,2020,2591
+Sweden,2021,2879
+Switzerland,2013,11240
+Switzerland,2014,12116
+Switzerland,2015,10833
+Switzerland,2016,12568
+Switzerland,2017,7170
+Switzerland,2018,20754
+Switzerland,2019,22205
+Switzerland,2020,23361
+Switzerland,2021,20322
+T�rkiye,2013,3194
+T�rkiye,2014,4125
+T�rkiye,2015,6827
+T�rkiye,2016,7182
+T�rkiye,2017,13249
+T�rkiye,2018,7381
+T�rkiye,2019,8297
+T�rkiye,2020,8800
+T�rkiye,2021,9412
+United Kingdom,2013,192142
+United Kingdom,2014,194344
+United Kingdom,2015,12397
+United Kingdom,2016,12976
+United Kingdom,2017,9579
+United Kingdom,2018,13300
+United Kingdom,2019,13488
+United Kingdom,2020,13772
+United Kingdom,2021,14669
+United States of America,2013,0
+United States of America,2014,0
+United States of America,2015,5458
+United States of America,2016,7369
+United States of America,2017,201003
+United States of America,2018,10692
+United States of America,2019,12562
+United States of America,2020,13417
+United States of America,2021,17714

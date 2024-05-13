@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+#geo-container {
+    position: relative; /* Position relative to the container */
+    width: 100%; /* Adjust width as needed */
+    height: 85vh; /* Adjust height as needed */
+    overflow: hidden; /* Prevent overflow */
+}
+
+#geo {
+    position: absolute; /* Position relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+}
+
+.tooltip {
+    position: fixed; /* Position relative to the viewport */
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    pointer-events: none;
+    display: none;
+}
+
+.legend-container {
+    position: absolute; /* Position relative to the viewport */
+    top: 30%;
+    right: 10%;
+    width: 10%; /* Adjust width as needed */
+    max-height: 50%; /* Limit the height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.slider {
+    position: fixed; /* Position relative to the viewport */
+    margin-top: 10px;
+}
+
+.legend {
+    position: relative; /* Position relative to the viewport */
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.legend-item {
+    position: relative; /* Position relative to the viewport */
+    display: flex;
+    align-items: center;
+    
+}
+.legend-color {
+    position: relative; /* Position relative to the viewport */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.legend-text {
+    position: relative; /* Position relative to the viewport */
+    font-size: 14px;
+}
+
+
+
+
