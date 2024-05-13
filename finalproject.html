@@ -9,14 +9,43 @@
     <title>Data Visualization Project</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="finalproject.js"></script>
-
-
+    <link rel="stylesheet" type="text/css" href="finalproject.css">
 
 </head>
 <body>
-    <h2>Number of International Students by Country (2021)</h2>
+    <h2>Number of International Students by Country</h2>
 
-    <div id="geo"></div>
+    <div id="geo-container">
+        <div id="geo"></div>
+        <div class="legend-container">
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ff9800;"></div>
+                    <div class="legend-text">1,000-1,999</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ff8800;"></div>
+                    <div class="legend-text">10,000-19,999</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ff7800;"></div>
+                    <div class="legend-text">100,000-199,999</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ff6600;"></div>
+                    <div class="legend-text">1,000,000-1,999,999</div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #ff3800;"></div>
+                    <div class="legend-text">+10,000,000</div>
+                </div>
+            </div>       
+        </div>
+    </div>
+    <div id="slide"></div>
+    
+    
+    
 
 
 </body>
