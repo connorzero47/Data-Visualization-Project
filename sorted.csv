@@ -1,352 +1,1455 @@
-Country,year,sum
-Australia,2013,113815
-Australia,2014,114165
-Australia,2015,108801
-Australia,2016,113167
-Australia,2017,121612
-Australia,2018,162776
-Australia,2019,195371
-Australia,2020,199313
-Australia,2021,213269
-Austria,2013,9108
-Austria,2014,9572
-Austria,2015,10140
-Austria,2016,11126
-Austria,2017,11633
-Austria,2018,12206
-Austria,2019,12663
-Austria,2020,13127
-Austria,2021,13992
-Belgium,2013,11155
-Belgium,2014,11754
-Belgium,2015,12305
-Belgium,2016,13918
-Belgium,2017,12619
-Belgium,2018,13659
-Belgium,2019,11472
-Belgium,2020,13922
-Belgium,2021,14263
-Brazil,2013,1762
-Brazil,2014,2877
-Brazil,2015,3405
-Brazil,2016,3555
-Brazil,2017,3966
-Brazil,2018,4087
-Brazil,2019,3922
-Brazil,2020,529
-Brazil,2021,3758
-Canada,2013,41829
-Canada,2014,44711
-Canada,2015,1935
-Canada,2016,1959
-Canada,2017,66299
-Canada,2018,1842
-Canada,2019,2044
-Canada,2020,2039
-Canada,2021,2580
-Chile,2013,404
-Chile,2014,426
-Chile,2015,52859
-Chile,2016,51417
-Chile,2017,563
-Chile,2018,77687
-Chile,2019,107082
-Chile,2020,135417
-Chile,2021,138369
-Colombia,2013,0
-Colombia,2014,0
-Colombia,2015,401
-Colombia,2016,504
-Colombia,2017,795
-Colombia,2018,641
-Colombia,2019,3892
-Colombia,2020,1995
-Colombia,2021,5076
-Costa Rica,2013,0
-Costa Rica,2014,0
-Costa Rica,2015,0
-Costa Rica,2016,609
-Costa Rica,2017,0
-Costa Rica,2018,940
-Costa Rica,2019,958
-Costa Rica,2020,1088
-Costa Rica,2021,1051
-Croatia,2013,0
-Croatia,2014,138
-Croatia,2015,0
-Croatia,2016,0
-Croatia,2017,1099
-Croatia,2018,0
-Croatia,2019,0
-Croatia,2020,0
-Croatia,2021,0
-Czechia,2013,8349
-Czechia,2014,8418
-Czechia,2015,100
-Czechia,2016,1105
-Czechia,2017,8426
-Czechia,2018,824
-Czechia,2019,881
-Czechia,2020,1017
-Czechia,2021,779
-Denmark,2013,7966
-Denmark,2014,8223
-Denmark,2015,8029
-Denmark,2016,8260
-Denmark,2017,10993
-Denmark,2018,8805
-Denmark,2019,9046
-Denmark,2020,9253
-Denmark,2021,9186
-Estonia,2013,255
-Estonia,2014,266
-Estonia,2015,8862
-Estonia,2016,11018
-Estonia,2017,848
-Estonia,2018,10891
-Estonia,2019,10766
-Estonia,2020,10373
-Estonia,2021,10743
-Finland,2013,3617
-Finland,2014,3974
-Finland,2015,452
-Finland,2016,707
-Finland,2017,4330
-Finland,2018,1041
-Finland,2019,1153
-Finland,2020,1346
-Finland,2021,1541
-France,2013,0
-France,2014,0
-France,2015,4394
-France,2016,4532
-France,2017,77509
-France,2018,4744
-France,2019,5236
-France,2020,5415
-France,2021,5143
-Germany,2013,32137
-Germany,2014,34012
-Germany,2015,0
-Germany,2016,0
-Germany,2017,41822
-Germany,2018,78837
-Germany,2019,83492
-Germany,2020,87514
-Germany,2021,86586
-Greece,2013,0
-Greece,2014,0
-Greece,2015,36370
-Greece,2016,38593
-Greece,2017,1218
-Greece,2018,44077
-Greece,2019,53835
-Greece,2020,52431
-Greece,2021,59213
-Hungary,2013,2738
-Hungary,2014,3065
-Hungary,2015,1354
-Hungary,2016,1471
-Hungary,2017,3863
-Hungary,2018,1273
-Hungary,2019,1364
-Hungary,2020,1094
-Hungary,2021,1533
-Iceland,2013,157
-Iceland,2014,214
-Iceland,2015,3095
-Iceland,2016,3383
-Iceland,2017,283
-Iceland,2018,4680
-Iceland,2019,5354
-Iceland,2020,6763
-Iceland,2021,6724
-Israel,2013,2187
-Israel,2014,5050
-Israel,2015,219
-Israel,2016,219
-Israel,2017,7973
-Israel,2018,313
-Israel,2019,345
-Israel,2020,273
-Israel,2021,398
-Italy,2013,14569
-Italy,2014,2202
-Italy,2015,5630
-Italy,2016,5718
-Italy,2017,2306
-Italy,2018,11285
-Italy,2019,9777
-Italy,2020,11255
-Italy,2021,9511
-Japan,2013,0
-Japan,2014,16989
-Japan,2015,2292
-Japan,2016,1420
-Japan,2017,19615
-Japan,2018,2648
-Japan,2019,2726
-Japan,2020,3030
-Japan,2021,2053
-Korea,2013,0
-Korea,2014,0
-Korea,2015,16273
-Korea,2016,18775
-Korea,2017,46316
-Korea,2018,20591
-Korea,2019,17704
-Korea,2020,12119
-Korea,2021,14793
-Latvia,2013,354
-Latvia,2014,337
-Latvia,2015,0
-Latvia,2016,0
-Latvia,2017,16293
-Latvia,2018,47930
-Latvia,2019,57175
-Latvia,2020,62104
-Latvia,2021,66665
-Lithuania,2013,550
-Lithuania,2014,648
-Lithuania,2015,0
-Lithuania,2016,15270
-Lithuania,2017,803
-Lithuania,2018,17805
-Lithuania,2019,20751
-Lithuania,2020,24471
-Lithuania,2021,25171
-Luxembourg,2013,652
-Luxembourg,2014,686
-Luxembourg,2015,530
-Luxembourg,2016,590
-Luxembourg,2017,989
-Luxembourg,2018,892
-Luxembourg,2019,990
-Luxembourg,2020,1219
-Luxembourg,2021,1476
-Mexico,2013,0
-Mexico,2014,0
-Mexico,2015,705
-Mexico,2016,760
-Mexico,2017,869
-Mexico,2018,1028
-Mexico,2019,1207
-Mexico,2020,1207
-Mexico,2021,1282
-Netherlands,2013,18661
-Netherlands,2014,18906
-Netherlands,2015,701
-Netherlands,2016,839
-Netherlands,2017,0
-Netherlands,2018,847
-Netherlands,2019,864
-Netherlands,2020,872
-Netherlands,2021,1153
-New Zealand,2013,12421
-New Zealand,2014,13667
-New Zealand,2015,0
-New Zealand,2016,0
-New Zealand,2017,24031
-New Zealand,2018,0
-New Zealand,2019,0
-New Zealand,2020,0
-New Zealand,2021,0
-Norway,2013,2537
-Norway,2014,2613
-Norway,2015,21363
-Norway,2016,22640
-Norway,2017,19549
-Norway,2018,25822
-Norway,2019,28359
-Norway,2020,30521
-Norway,2021,34084
-Poland,2013,4750
-Poland,2014,5499
-Poland,2015,16758
-Poland,2016,20530
-Poland,2017,3220
-Poland,2018,19740
-Poland,2019,18937
-Poland,2020,19782
-Poland,2021,14620
-Portugal,2013,2278
-Portugal,2014,2570
-Portugal,2015,2677
-Portugal,2016,2964
-Portugal,2017,9921
-Portugal,2018,3173
-Portugal,2019,3191
-Portugal,2020,3023
-Portugal,2021,3271
-Romania,2013,3405
-Romania,2014,3756
-Romania,2015,6886
-Romania,2016,8780
-Romania,2017,3784
-Romania,2018,10713
-Romania,2019,11279
-Romania,2020,15677
-Romania,2021,19008
-Slovak Republic,2013,2732
-Slovak Republic,2014,2906
-Slovak Republic,2015,3228
-Slovak Republic,2016,3527
-Slovak Republic,2017,5065
-Slovak Republic,2018,4744
-Slovak Republic,2019,5673
-Slovak Republic,2020,7064
-Slovak Republic,2021,8093
-Spain,2013,8447
-Spain,2014,8835
-Spain,2015,4326
-Spain,2016,4420
-Spain,2017,2625
-Spain,2018,5271
-Spain,2019,5687
-Spain,2020,5931
-Spain,2021,6301
-Sweden,2013,8247
-Sweden,2014,7469
-Sweden,2015,2733
-Sweden,2016,3038
-Sweden,2017,18047
-Sweden,2018,2495
-Sweden,2019,2522
-Sweden,2020,2591
-Sweden,2021,2879
-Switzerland,2013,11240
-Switzerland,2014,12116
-Switzerland,2015,10833
-Switzerland,2016,12568
-Switzerland,2017,7170
-Switzerland,2018,20754
-Switzerland,2019,22205
-Switzerland,2020,23361
-Switzerland,2021,20322
-T�rkiye,2013,3194
-T�rkiye,2014,4125
-T�rkiye,2015,6827
-T�rkiye,2016,7182
-T�rkiye,2017,13249
-T�rkiye,2018,7381
-T�rkiye,2019,8297
-T�rkiye,2020,8800
-T�rkiye,2021,9412
-United Kingdom,2013,192142
-United Kingdom,2014,194344
-United Kingdom,2015,12397
-United Kingdom,2016,12976
-United Kingdom,2017,9579
-United Kingdom,2018,13300
-United Kingdom,2019,13488
-United Kingdom,2020,13772
-United Kingdom,2021,14669
-United States of America,2013,0
-United States of America,2014,0
-United States of America,2015,5458
-United States of America,2016,7369
-United States of America,2017,201003
-United States of America,2018,10692
-United States of America,2019,12562
-United States of America,2020,13417
-United States of America,2021,17714
+Country,edu_level,year,sum
+Australia,Short-cycle tertiary education,2013,15163
+Australia,Short-cycle tertiary education,2014,17177
+Australia,Short-cycle tertiary education,2015,13647
+Australia,Short-cycle tertiary education,2016,13784
+Australia,Short-cycle tertiary education,2017,13795
+Australia,Short-cycle tertiary education,2018,37916
+Australia,Short-cycle tertiary education,2019,56790
+Australia,Short-cycle tertiary education,2020,57661
+Australia,Short-cycle tertiary education,2021,62592
+Australia,Bachelor or equivalent level,2013,60997
+Australia,Bachelor or equivalent level,2014,56382
+Australia,Bachelor or equivalent level,2015,52248
+Australia,Bachelor or equivalent level,2016,53434
+Australia,Bachelor or equivalent level,2017,55341
+Australia,Bachelor or equivalent level,2018,59941
+Australia,Bachelor or equivalent level,2019,63569
+Australia,Bachelor or equivalent level,2020,64326
+Australia,Bachelor or equivalent level,2021,66588
+Australia,Master or equivalent level,2013,34706
+Australia,Master or equivalent level,2014,37356
+Australia,Master or equivalent level,2015,39694
+Australia,Master or equivalent level,2016,42319
+Australia,Master or equivalent level,2017,48780
+Australia,Master or equivalent level,2018,61364
+Australia,Master or equivalent level,2019,71128
+Australia,Master or equivalent level,2020,73620
+Australia,Master or equivalent level,2021,80521
+Australia,Doctoral or equivalent level,2013,2949
+Australia,Doctoral or equivalent level,2014,3250
+Australia,Doctoral or equivalent level,2015,3212
+Australia,Doctoral or equivalent level,2016,3630
+Australia,Doctoral or equivalent level,2017,3696
+Australia,Doctoral or equivalent level,2018,3555
+Australia,Doctoral or equivalent level,2019,3884
+Australia,Doctoral or equivalent level,2020,3706
+Australia,Doctoral or equivalent level,2021,3568
+Austria,Short-cycle tertiary education,2013,240
+Austria,Short-cycle tertiary education,2014,75
+Austria,Short-cycle tertiary education,2015,62
+Austria,Short-cycle tertiary education,2016,67
+Austria,Short-cycle tertiary education,2017,79
+Austria,Short-cycle tertiary education,2018,81
+Austria,Short-cycle tertiary education,2019,75
+Austria,Short-cycle tertiary education,2020,89
+Austria,Short-cycle tertiary education,2021,101
+Austria,Bachelor or equivalent level,2013,3705
+Austria,Bachelor or equivalent level,2014,4365
+Austria,Bachelor or equivalent level,2015,4541
+Austria,Bachelor or equivalent level,2016,4951
+Austria,Bachelor or equivalent level,2017,5007
+Austria,Bachelor or equivalent level,2018,4982
+Austria,Bachelor or equivalent level,2019,5366
+Austria,Bachelor or equivalent level,2020,5524
+Austria,Bachelor or equivalent level,2021,6054
+Austria,Master or equivalent level,2013,4518
+Austria,Master or equivalent level,2014,4447
+Austria,Master or equivalent level,2015,4887
+Austria,Master or equivalent level,2016,5415
+Austria,Master or equivalent level,2017,5732
+Austria,Master or equivalent level,2018,6270
+Austria,Master or equivalent level,2019,6390
+Austria,Master or equivalent level,2020,6673
+Austria,Master or equivalent level,2021,7026
+Austria,Doctoral or equivalent level,2013,645
+Austria,Doctoral or equivalent level,2014,685
+Austria,Doctoral or equivalent level,2015,650
+Austria,Doctoral or equivalent level,2016,693
+Austria,Doctoral or equivalent level,2017,815
+Austria,Doctoral or equivalent level,2018,873
+Austria,Doctoral or equivalent level,2019,832
+Austria,Doctoral or equivalent level,2020,841
+Austria,Doctoral or equivalent level,2021,811
+Belgium,Short-cycle tertiary education,2013,0
+Belgium,Short-cycle tertiary education,2014,0
+Belgium,Short-cycle tertiary education,2015,0
+Belgium,Short-cycle tertiary education,2016,0
+Belgium,Short-cycle tertiary education,2017,0
+Belgium,Short-cycle tertiary education,2018,0
+Belgium,Short-cycle tertiary education,2019,0
+Belgium,Short-cycle tertiary education,2020,102
+Belgium,Short-cycle tertiary education,2021,114
+Belgium,Bachelor or equivalent level,2013,4234
+Belgium,Bachelor or equivalent level,2014,5036
+Belgium,Bachelor or equivalent level,2015,5073
+Belgium,Bachelor or equivalent level,2016,5589
+Belgium,Bachelor or equivalent level,2017,5114
+Belgium,Bachelor or equivalent level,2018,4976
+Belgium,Bachelor or equivalent level,2019,4267
+Belgium,Bachelor or equivalent level,2020,5075
+Belgium,Bachelor or equivalent level,2021,4990
+Belgium,Master or equivalent level,2013,5947
+Belgium,Master or equivalent level,2014,5744
+Belgium,Master or equivalent level,2015,6238
+Belgium,Master or equivalent level,2016,7171
+Belgium,Master or equivalent level,2017,6289
+Belgium,Master or equivalent level,2018,7309
+Belgium,Master or equivalent level,2019,6169
+Belgium,Master or equivalent level,2020,7488
+Belgium,Master or equivalent level,2021,7799
+Belgium,Doctoral or equivalent level,2013,974
+Belgium,Doctoral or equivalent level,2014,974
+Belgium,Doctoral or equivalent level,2015,994
+Belgium,Doctoral or equivalent level,2016,1158
+Belgium,Doctoral or equivalent level,2017,1216
+Belgium,Doctoral or equivalent level,2018,1374
+Belgium,Doctoral or equivalent level,2019,1036
+Belgium,Doctoral or equivalent level,2020,1257
+Belgium,Doctoral or equivalent level,2021,1360
+Canada,Short-cycle tertiary education,2013,15405
+Canada,Short-cycle tertiary education,2014,17154
+Canada,Short-cycle tertiary education,2015,22381
+Canada,Short-cycle tertiary education,2016,18867
+Canada,Short-cycle tertiary education,2017,28843
+Canada,Short-cycle tertiary education,2018,35638
+Canada,Short-cycle tertiary education,2019,62736
+Canada,Short-cycle tertiary education,2020,85743
+Canada,Short-cycle tertiary education,2021,82227
+Canada,Bachelor or equivalent level,2013,15432
+Canada,Bachelor or equivalent level,2014,15959
+Canada,Bachelor or equivalent level,2015,16917
+Canada,Bachelor or equivalent level,2016,18217
+Canada,Bachelor or equivalent level,2017,21223
+Canada,Bachelor or equivalent level,2018,23698
+Canada,Bachelor or equivalent level,2019,25608
+Canada,Bachelor or equivalent level,2020,28884
+Canada,Bachelor or equivalent level,2021,33159
+Canada,Master or equivalent level,2013,9675
+Canada,Master or equivalent level,2014,10080
+Canada,Master or equivalent level,2015,11792
+Canada,Master or equivalent level,2016,12302
+Canada,Master or equivalent level,2017,13881
+Canada,Master or equivalent level,2018,15612
+Canada,Master or equivalent level,2019,16296
+Canada,Master or equivalent level,2020,18156
+Canada,Master or equivalent level,2021,20484
+Canada,Doctoral or equivalent level,2013,1317
+Canada,Doctoral or equivalent level,2014,1518
+Canada,Doctoral or equivalent level,2015,1769
+Canada,Doctoral or equivalent level,2016,2031
+Canada,Doctoral or equivalent level,2017,2352
+Canada,Doctoral or equivalent level,2018,2739
+Canada,Doctoral or equivalent level,2019,2442
+Canada,Doctoral or equivalent level,2020,2634
+Canada,Doctoral or equivalent level,2021,2499
+Czechia,Short-cycle tertiary education,2013,13
+Czechia,Short-cycle tertiary education,2014,11
+Czechia,Short-cycle tertiary education,2015,23
+Czechia,Short-cycle tertiary education,2016,13
+Czechia,Short-cycle tertiary education,2017,21
+Czechia,Short-cycle tertiary education,2018,15
+Czechia,Short-cycle tertiary education,2019,18
+Czechia,Short-cycle tertiary education,2020,23
+Czechia,Short-cycle tertiary education,2021,21
+Czechia,Bachelor or equivalent level,2013,4291
+Czechia,Bachelor or equivalent level,2014,4153
+Czechia,Bachelor or equivalent level,2015,3834
+Czechia,Bachelor or equivalent level,2016,4074
+Czechia,Bachelor or equivalent level,2017,3990
+Czechia,Bachelor or equivalent level,2018,4250
+Czechia,Bachelor or equivalent level,2019,4192
+Czechia,Bachelor or equivalent level,2020,4050
+Czechia,Bachelor or equivalent level,2021,3951
+Czechia,Master or equivalent level,2013,3740
+Czechia,Master or equivalent level,2014,3931
+Czechia,Master or equivalent level,2015,3834
+Czechia,Master or equivalent level,2016,3812
+Czechia,Master or equivalent level,2017,4009
+Czechia,Master or equivalent level,2018,4130
+Czechia,Master or equivalent level,2019,4431
+Czechia,Master or equivalent level,2020,4809
+Czechia,Master or equivalent level,2021,4753
+Czechia,Doctoral or equivalent level,2013,305
+Czechia,Doctoral or equivalent level,2014,323
+Czechia,Doctoral or equivalent level,2015,338
+Czechia,Doctoral or equivalent level,2016,361
+Czechia,Doctoral or equivalent level,2017,406
+Czechia,Doctoral or equivalent level,2018,410
+Czechia,Doctoral or equivalent level,2019,405
+Czechia,Doctoral or equivalent level,2020,371
+Czechia,Doctoral or equivalent level,2021,461
+Denmark,Short-cycle tertiary education,2013,1345
+Denmark,Short-cycle tertiary education,2014,1451
+Denmark,Short-cycle tertiary education,2015,1559
+Denmark,Short-cycle tertiary education,2016,1743
+Denmark,Short-cycle tertiary education,2017,1856
+Denmark,Short-cycle tertiary education,2018,1712
+Denmark,Short-cycle tertiary education,2019,1534
+Denmark,Short-cycle tertiary education,2020,1258
+Denmark,Short-cycle tertiary education,2021,1313
+Denmark,Bachelor or equivalent level,2013,2866
+Denmark,Bachelor or equivalent level,2014,2842
+Denmark,Bachelor or equivalent level,2015,2827
+Denmark,Bachelor or equivalent level,2016,3028
+Denmark,Bachelor or equivalent level,2017,3135
+Denmark,Bachelor or equivalent level,2018,3299
+Denmark,Bachelor or equivalent level,2019,3220
+Denmark,Bachelor or equivalent level,2020,3254
+Denmark,Bachelor or equivalent level,2021,3193
+Denmark,Master or equivalent level,2013,3170
+Denmark,Master or equivalent level,2014,3253
+Denmark,Master or equivalent level,2015,3778
+Denmark,Master or equivalent level,2016,5506
+Denmark,Master or equivalent level,2017,5191
+Denmark,Master or equivalent level,2018,5087
+Denmark,Master or equivalent level,2019,5209
+Denmark,Master or equivalent level,2020,5153
+Denmark,Master or equivalent level,2021,5428
+Denmark,Doctoral or equivalent level,2013,585
+Denmark,Doctoral or equivalent level,2014,677
+Denmark,Doctoral or equivalent level,2015,698
+Denmark,Doctoral or equivalent level,2016,741
+Denmark,Doctoral or equivalent level,2017,811
+Denmark,Doctoral or equivalent level,2018,793
+Denmark,Doctoral or equivalent level,2019,803
+Denmark,Doctoral or equivalent level,2020,708
+Denmark,Doctoral or equivalent level,2021,809
+Finland,Short-cycle tertiary education,2013,0
+Finland,Short-cycle tertiary education,2014,0
+Finland,Short-cycle tertiary education,2015,0
+Finland,Short-cycle tertiary education,2016,0
+Finland,Short-cycle tertiary education,2017,0
+Finland,Short-cycle tertiary education,2018,0
+Finland,Short-cycle tertiary education,2019,0
+Finland,Short-cycle tertiary education,2020,0
+Finland,Short-cycle tertiary education,2021,0
+Finland,Bachelor or equivalent level,2013,1733
+Finland,Bachelor or equivalent level,2014,1852
+Finland,Bachelor or equivalent level,2015,2071
+Finland,Bachelor or equivalent level,2016,2097
+Finland,Bachelor or equivalent level,2017,1924
+Finland,Bachelor or equivalent level,2018,2000
+Finland,Bachelor or equivalent level,2019,2221
+Finland,Bachelor or equivalent level,2020,2371
+Finland,Bachelor or equivalent level,2021,2343
+Finland,Master or equivalent level,2013,1518
+Finland,Master or equivalent level,2014,1664
+Finland,Master or equivalent level,2015,1860
+Finland,Master or equivalent level,2016,1923
+Finland,Master or equivalent level,2017,1912
+Finland,Master or equivalent level,2018,2202
+Finland,Master or equivalent level,2019,2478
+Finland,Master or equivalent level,2020,2509
+Finland,Master or equivalent level,2021,2268
+Finland,Doctoral or equivalent level,2013,366
+Finland,Doctoral or equivalent level,2014,458
+Finland,Doctoral or equivalent level,2015,463
+Finland,Doctoral or equivalent level,2016,512
+Finland,Doctoral or equivalent level,2017,494
+Finland,Doctoral or equivalent level,2018,542
+Finland,Doctoral or equivalent level,2019,537
+Finland,Doctoral or equivalent level,2020,535
+Finland,Doctoral or equivalent level,2021,532
+France,Short-cycle tertiary education,2013,0
+France,Short-cycle tertiary education,2014,0
+France,Short-cycle tertiary education,2015,0
+France,Short-cycle tertiary education,2016,0
+France,Short-cycle tertiary education,2017,8014
+France,Short-cycle tertiary education,2018,5982
+France,Short-cycle tertiary education,2019,5278
+France,Short-cycle tertiary education,2020,4523
+France,Short-cycle tertiary education,2021,3629
+France,Bachelor or equivalent level,2013,0
+France,Bachelor or equivalent level,2014,0
+France,Bachelor or equivalent level,2015,0
+France,Bachelor or equivalent level,2016,0
+France,Bachelor or equivalent level,2017,19970
+France,Bachelor or equivalent level,2018,20622
+France,Bachelor or equivalent level,2019,22546
+France,Bachelor or equivalent level,2020,25842
+France,Bachelor or equivalent level,2021,24128
+France,Master or equivalent level,2013,0
+France,Master or equivalent level,2014,0
+France,Master or equivalent level,2015,0
+France,Master or equivalent level,2016,0
+France,Master or equivalent level,2017,44566
+France,Master or equivalent level,2018,47083
+France,Master or equivalent level,2019,50628
+France,Master or equivalent level,2020,52853
+France,Master or equivalent level,2021,54465
+France,Doctoral or equivalent level,2013,0
+France,Doctoral or equivalent level,2014,0
+France,Doctoral or equivalent level,2015,0
+France,Doctoral or equivalent level,2016,0
+France,Doctoral or equivalent level,2017,4959
+France,Doctoral or equivalent level,2018,5150
+France,Doctoral or equivalent level,2019,5040
+France,Doctoral or equivalent level,2020,4296
+France,Doctoral or equivalent level,2021,4364
+Germany,Short-cycle tertiary education,2013,0
+Germany,Short-cycle tertiary education,2014,0
+Germany,Short-cycle tertiary education,2015,0
+Germany,Short-cycle tertiary education,2016,0
+Germany,Short-cycle tertiary education,2017,0
+Germany,Short-cycle tertiary education,2018,0
+Germany,Short-cycle tertiary education,2019,0
+Germany,Short-cycle tertiary education,2020,0
+Germany,Short-cycle tertiary education,2021,0
+Germany,Bachelor or equivalent level,2013,9449
+Germany,Bachelor or equivalent level,2014,9946
+Germany,Bachelor or equivalent level,2015,10146
+Germany,Bachelor or equivalent level,2016,10788
+Germany,Bachelor or equivalent level,2017,11502
+Germany,Bachelor or equivalent level,2018,12090
+Germany,Bachelor or equivalent level,2019,16189
+Germany,Bachelor or equivalent level,2020,16287
+Germany,Bachelor or equivalent level,2021,18375
+Germany,Master or equivalent level,2013,18451
+Germany,Master or equivalent level,2014,19569
+Germany,Master or equivalent level,2015,21337
+Germany,Master or equivalent level,2016,22882
+Germany,Master or equivalent level,2017,25269
+Germany,Master or equivalent level,2018,27084
+Germany,Master or equivalent level,2019,31879
+Germany,Master or equivalent level,2020,30599
+Germany,Master or equivalent level,2021,34875
+Germany,Doctoral or equivalent level,2013,4237
+Germany,Doctoral or equivalent level,2014,4497
+Germany,Doctoral or equivalent level,2015,4887
+Germany,Doctoral or equivalent level,2016,4923
+Germany,Doctoral or equivalent level,2017,5051
+Germany,Doctoral or equivalent level,2018,4903
+Germany,Doctoral or equivalent level,2019,5767
+Germany,Doctoral or equivalent level,2020,5545
+Germany,Doctoral or equivalent level,2021,5963
+Greece,Short-cycle tertiary education,2013,0
+Greece,Short-cycle tertiary education,2014,0
+Greece,Short-cycle tertiary education,2015,0
+Greece,Short-cycle tertiary education,2016,0
+Greece,Short-cycle tertiary education,2017,0
+Greece,Short-cycle tertiary education,2018,0
+Greece,Short-cycle tertiary education,2019,0
+Greece,Short-cycle tertiary education,2020,0
+Greece,Short-cycle tertiary education,2021,0
+Greece,Bachelor or equivalent level,2013,0
+Greece,Bachelor or equivalent level,2014,0
+Greece,Bachelor or equivalent level,2015,1249
+Greece,Bachelor or equivalent level,2016,1273
+Greece,Bachelor or equivalent level,2017,1082
+Greece,Bachelor or equivalent level,2018,1116
+Greece,Bachelor or equivalent level,2019,1129
+Greece,Bachelor or equivalent level,2020,996
+Greece,Bachelor or equivalent level,2021,1371
+Greece,Master or equivalent level,2013,0
+Greece,Master or equivalent level,2014,0
+Greece,Master or equivalent level,2015,72
+Greece,Master or equivalent level,2016,154
+Greece,Master or equivalent level,2017,119
+Greece,Master or equivalent level,2018,136
+Greece,Master or equivalent level,2019,192
+Greece,Master or equivalent level,2020,75
+Greece,Master or equivalent level,2021,129
+Greece,Doctoral or equivalent level,2013,0
+Greece,Doctoral or equivalent level,2014,0
+Greece,Doctoral or equivalent level,2015,33
+Greece,Doctoral or equivalent level,2016,44
+Greece,Doctoral or equivalent level,2017,17
+Greece,Doctoral or equivalent level,2018,21
+Greece,Doctoral or equivalent level,2019,43
+Greece,Doctoral or equivalent level,2020,23
+Greece,Doctoral or equivalent level,2021,33
+Hungary,Short-cycle tertiary education,2013,38
+Hungary,Short-cycle tertiary education,2014,34
+Hungary,Short-cycle tertiary education,2015,19
+Hungary,Short-cycle tertiary education,2016,12
+Hungary,Short-cycle tertiary education,2017,23
+Hungary,Short-cycle tertiary education,2018,30
+Hungary,Short-cycle tertiary education,2019,31
+Hungary,Short-cycle tertiary education,2020,35
+Hungary,Short-cycle tertiary education,2021,42
+Hungary,Bachelor or equivalent level,2013,1208
+Hungary,Bachelor or equivalent level,2014,1245
+Hungary,Bachelor or equivalent level,2015,1373
+Hungary,Bachelor or equivalent level,2016,1338
+Hungary,Bachelor or equivalent level,2017,1420
+Hungary,Bachelor or equivalent level,2018,1802
+Hungary,Bachelor or equivalent level,2019,1996
+Hungary,Bachelor or equivalent level,2020,2907
+Hungary,Bachelor or equivalent level,2021,2743
+Hungary,Master or equivalent level,2013,1418
+Hungary,Master or equivalent level,2014,1696
+Hungary,Master or equivalent level,2015,1617
+Hungary,Master or equivalent level,2016,1933
+Hungary,Master or equivalent level,2017,2316
+Hungary,Master or equivalent level,2018,2703
+Hungary,Master or equivalent level,2019,3185
+Hungary,Master or equivalent level,2020,3635
+Hungary,Master or equivalent level,2021,3655
+Hungary,Doctoral or equivalent level,2013,74
+Hungary,Doctoral or equivalent level,2014,90
+Hungary,Doctoral or equivalent level,2015,86
+Hungary,Doctoral or equivalent level,2016,100
+Hungary,Doctoral or equivalent level,2017,104
+Hungary,Doctoral or equivalent level,2018,145
+Hungary,Doctoral or equivalent level,2019,142
+Hungary,Doctoral or equivalent level,2020,186
+Hungary,Doctoral or equivalent level,2021,284
+Iceland,Short-cycle tertiary education,2013,3
+Iceland,Short-cycle tertiary education,2014,1
+Iceland,Short-cycle tertiary education,2015,3
+Iceland,Short-cycle tertiary education,2016,0
+Iceland,Short-cycle tertiary education,2017,1
+Iceland,Short-cycle tertiary education,2018,0
+Iceland,Short-cycle tertiary education,2019,0
+Iceland,Short-cycle tertiary education,2020,2
+Iceland,Short-cycle tertiary education,2021,1
+Iceland,Bachelor or equivalent level,2013,66
+Iceland,Bachelor or equivalent level,2014,64
+Iceland,Bachelor or equivalent level,2015,86
+Iceland,Bachelor or equivalent level,2016,69
+Iceland,Bachelor or equivalent level,2017,87
+Iceland,Bachelor or equivalent level,2018,132
+Iceland,Bachelor or equivalent level,2019,114
+Iceland,Bachelor or equivalent level,2020,107
+Iceland,Bachelor or equivalent level,2021,138
+Iceland,Master or equivalent level,2013,73
+Iceland,Master or equivalent level,2014,120
+Iceland,Master or equivalent level,2015,114
+Iceland,Master or equivalent level,2016,124
+Iceland,Master or equivalent level,2017,169
+Iceland,Master or equivalent level,2018,158
+Iceland,Master or equivalent level,2019,195
+Iceland,Master or equivalent level,2020,134
+Iceland,Master or equivalent level,2021,211
+Iceland,Doctoral or equivalent level,2013,15
+Iceland,Doctoral or equivalent level,2014,29
+Iceland,Doctoral or equivalent level,2015,16
+Iceland,Doctoral or equivalent level,2016,26
+Iceland,Doctoral or equivalent level,2017,26
+Iceland,Doctoral or equivalent level,2018,23
+Iceland,Doctoral or equivalent level,2019,36
+Iceland,Doctoral or equivalent level,2020,30
+Iceland,Doctoral or equivalent level,2021,48
+Ireland,Short-cycle tertiary education,2014,220
+Ireland,Short-cycle tertiary education,2015,257
+Ireland,Short-cycle tertiary education,2016,240
+Ireland,Short-cycle tertiary education,2017,363
+Ireland,Short-cycle tertiary education,2018,500
+Ireland,Short-cycle tertiary education,2019,435
+Ireland,Short-cycle tertiary education,2020,498
+Ireland,Short-cycle tertiary education,2021,392
+Ireland,Bachelor or equivalent level,2014,2076
+Ireland,Bachelor or equivalent level,2015,2278
+Ireland,Bachelor or equivalent level,2016,2398
+Ireland,Bachelor or equivalent level,2017,2866
+Ireland,Bachelor or equivalent level,2018,5277
+Ireland,Bachelor or equivalent level,2019,3289
+Ireland,Bachelor or equivalent level,2020,3621
+Ireland,Bachelor or equivalent level,2021,3175
+Ireland,Master or equivalent level,2014,2299
+Ireland,Master or equivalent level,2015,2708
+Ireland,Master or equivalent level,2016,2739
+Ireland,Master or equivalent level,2017,4340
+Ireland,Master or equivalent level,2018,5108
+Ireland,Master or equivalent level,2019,5616
+Ireland,Master or equivalent level,2020,6682
+Ireland,Master or equivalent level,2021,5457
+Ireland,Doctoral or equivalent level,2014,455
+Ireland,Doctoral or equivalent level,2015,387
+Ireland,Doctoral or equivalent level,2016,341
+Ireland,Doctoral or equivalent level,2017,404
+Ireland,Doctoral or equivalent level,2018,400
+Ireland,Doctoral or equivalent level,2019,437
+Ireland,Doctoral or equivalent level,2020,454
+Ireland,Doctoral or equivalent level,2021,487
+Italy,Short-cycle tertiary education,2013,0
+Italy,Short-cycle tertiary education,2014,71
+Italy,Short-cycle tertiary education,2015,103
+Italy,Short-cycle tertiary education,2016,149
+Italy,Short-cycle tertiary education,2017,194
+Italy,Short-cycle tertiary education,2018,231
+Italy,Short-cycle tertiary education,2019,0
+Italy,Short-cycle tertiary education,2020,0
+Italy,Short-cycle tertiary education,2021,0
+Italy,Bachelor or equivalent level,2013,5853
+Italy,Bachelor or equivalent level,2014,8207
+Italy,Bachelor or equivalent level,2015,7728
+Italy,Bachelor or equivalent level,2016,9611
+Italy,Bachelor or equivalent level,2017,9814
+Italy,Bachelor or equivalent level,2018,10042
+Italy,Bachelor or equivalent level,2019,7604
+Italy,Bachelor or equivalent level,2020,4215
+Italy,Bachelor or equivalent level,2021,6169
+Italy,Master or equivalent level,2013,7631
+Italy,Master or equivalent level,2014,7541
+Italy,Master or equivalent level,2015,7245
+Italy,Master or equivalent level,2016,7855
+Italy,Master or equivalent level,2017,8439
+Italy,Master or equivalent level,2018,9317
+Italy,Master or equivalent level,2019,8959
+Italy,Master or equivalent level,2020,6710
+Italy,Master or equivalent level,2021,8054
+Italy,Doctoral or equivalent level,2013,1085
+Italy,Doctoral or equivalent level,2014,1170
+Italy,Doctoral or equivalent level,2015,1197
+Italy,Doctoral or equivalent level,2016,1160
+Italy,Doctoral or equivalent level,2017,1168
+Italy,Doctoral or equivalent level,2018,1001
+Italy,Doctoral or equivalent level,2019,1141
+Italy,Doctoral or equivalent level,2020,1194
+Italy,Doctoral or equivalent level,2021,570
+Japan,Short-cycle tertiary education,2013,0
+Japan,Short-cycle tertiary education,2015,0
+Japan,Short-cycle tertiary education,2016,0
+Japan,Short-cycle tertiary education,2017,20558
+Japan,Short-cycle tertiary education,2018,23294
+Japan,Short-cycle tertiary education,2019,29195
+Japan,Short-cycle tertiary education,2020,31600
+Japan,Short-cycle tertiary education,2021,34134
+Japan,Bachelor or equivalent level,2013,0
+Japan,Bachelor or equivalent level,2015,0
+Japan,Bachelor or equivalent level,2016,0
+Japan,Bachelor or equivalent level,2017,11690
+Japan,Bachelor or equivalent level,2018,10912
+Japan,Bachelor or equivalent level,2019,11917
+Japan,Bachelor or equivalent level,2020,12825
+Japan,Bachelor or equivalent level,2021,14150
+Japan,Master or equivalent level,2013,0
+Japan,Master or equivalent level,2015,0
+Japan,Master or equivalent level,2016,0
+Japan,Master or equivalent level,2017,10993
+Japan,Master or equivalent level,2018,10774
+Japan,Master or equivalent level,2019,12545
+Japan,Master or equivalent level,2020,14071
+Japan,Master or equivalent level,2021,14474
+Japan,Doctoral or equivalent level,2013,0
+Japan,Doctoral or equivalent level,2015,0
+Japan,Doctoral or equivalent level,2016,0
+Japan,Doctoral or equivalent level,2017,3075
+Japan,Doctoral or equivalent level,2018,2950
+Japan,Doctoral or equivalent level,2019,3518
+Japan,Doctoral or equivalent level,2020,3608
+Japan,Doctoral or equivalent level,2021,3907
+Korea,Short-cycle tertiary education,2013,0
+Korea,Short-cycle tertiary education,2014,0
+Korea,Short-cycle tertiary education,2015,0
+Korea,Short-cycle tertiary education,2016,666
+Korea,Short-cycle tertiary education,2017,652
+Korea,Short-cycle tertiary education,2018,750
+Korea,Short-cycle tertiary education,2019,876
+Korea,Short-cycle tertiary education,2020,1410
+Korea,Short-cycle tertiary education,2021,1475
+Korea,Bachelor or equivalent level,2013,0
+Korea,Bachelor or equivalent level,2014,0
+Korea,Bachelor or equivalent level,2015,0
+Korea,Bachelor or equivalent level,2016,6758
+Korea,Bachelor or equivalent level,2017,7086
+Korea,Bachelor or equivalent level,2018,7805
+Korea,Bachelor or equivalent level,2019,9338
+Korea,Bachelor or equivalent level,2020,11140
+Korea,Bachelor or equivalent level,2021,11593
+Korea,Master or equivalent level,2013,0
+Korea,Master or equivalent level,2014,0
+Korea,Master or equivalent level,2015,0
+Korea,Master or equivalent level,2016,6544
+Korea,Master or equivalent level,2017,7070
+Korea,Master or equivalent level,2018,7609
+Korea,Master or equivalent level,2019,8614
+Korea,Master or equivalent level,2020,9700
+Korea,Master or equivalent level,2021,9458
+Korea,Doctoral or equivalent level,2013,0
+Korea,Doctoral or equivalent level,2014,0
+Korea,Doctoral or equivalent level,2015,0
+Korea,Doctoral or equivalent level,2016,1302
+Korea,Doctoral or equivalent level,2017,1485
+Korea,Doctoral or equivalent level,2018,1641
+Korea,Doctoral or equivalent level,2019,1923
+Korea,Doctoral or equivalent level,2020,2221
+Korea,Doctoral or equivalent level,2021,2645
+Luxembourg,Short-cycle tertiary education,2013,23
+Luxembourg,Short-cycle tertiary education,2014,39
+Luxembourg,Short-cycle tertiary education,2015,14
+Luxembourg,Short-cycle tertiary education,2016,33
+Luxembourg,Short-cycle tertiary education,2017,71
+Luxembourg,Short-cycle tertiary education,2018,68
+Luxembourg,Short-cycle tertiary education,2019,68
+Luxembourg,Short-cycle tertiary education,2020,55
+Luxembourg,Short-cycle tertiary education,2021,106
+Luxembourg,Bachelor or equivalent level,2013,127
+Luxembourg,Bachelor or equivalent level,2014,143
+Luxembourg,Bachelor or equivalent level,2015,129
+Luxembourg,Bachelor or equivalent level,2016,226
+Luxembourg,Bachelor or equivalent level,2017,153
+Luxembourg,Bachelor or equivalent level,2018,128
+Luxembourg,Bachelor or equivalent level,2019,140
+Luxembourg,Bachelor or equivalent level,2020,154
+Luxembourg,Bachelor or equivalent level,2021,148
+Luxembourg,Master or equivalent level,2013,450
+Luxembourg,Master or equivalent level,2014,437
+Luxembourg,Master or equivalent level,2015,463
+Luxembourg,Master or equivalent level,2016,488
+Luxembourg,Master or equivalent level,2017,511
+Luxembourg,Master or equivalent level,2018,533
+Luxembourg,Master or equivalent level,2019,565
+Luxembourg,Master or equivalent level,2020,553
+Luxembourg,Master or equivalent level,2021,766
+Luxembourg,Doctoral or equivalent level,2013,52
+Luxembourg,Doctoral or equivalent level,2014,67
+Luxembourg,Doctoral or equivalent level,2015,95
+Luxembourg,Doctoral or equivalent level,2016,92
+Luxembourg,Doctoral or equivalent level,2017,134
+Luxembourg,Doctoral or equivalent level,2018,118
+Luxembourg,Doctoral or equivalent level,2019,91
+Luxembourg,Doctoral or equivalent level,2020,110
+Luxembourg,Doctoral or equivalent level,2021,133
+Mexico,Short-cycle tertiary education,2013,0
+Mexico,Short-cycle tertiary education,2014,0
+Mexico,Short-cycle tertiary education,2015,0
+Mexico,Short-cycle tertiary education,2016,0
+Mexico,Short-cycle tertiary education,2017,0
+Mexico,Short-cycle tertiary education,2018,0
+Mexico,Short-cycle tertiary education,2019,0
+Mexico,Short-cycle tertiary education,2020,0
+Mexico,Short-cycle tertiary education,2021,0
+Mexico,Bachelor or equivalent level,2013,0
+Mexico,Bachelor or equivalent level,2014,0
+Mexico,Bachelor or equivalent level,2015,0
+Mexico,Bachelor or equivalent level,2016,0
+Mexico,Bachelor or equivalent level,2017,0
+Mexico,Bachelor or equivalent level,2018,0
+Mexico,Bachelor or equivalent level,2019,0
+Mexico,Bachelor or equivalent level,2020,0
+Mexico,Bachelor or equivalent level,2021,0
+Mexico,Master or equivalent level,2013,0
+Mexico,Master or equivalent level,2014,0
+Mexico,Master or equivalent level,2015,0
+Mexico,Master or equivalent level,2016,0
+Mexico,Master or equivalent level,2017,0
+Mexico,Master or equivalent level,2018,0
+Mexico,Master or equivalent level,2019,0
+Mexico,Master or equivalent level,2020,0
+Mexico,Master or equivalent level,2021,0
+Mexico,Doctoral or equivalent level,2013,0
+Mexico,Doctoral or equivalent level,2014,0
+Mexico,Doctoral or equivalent level,2015,0
+Mexico,Doctoral or equivalent level,2016,0
+Mexico,Doctoral or equivalent level,2017,0
+Mexico,Doctoral or equivalent level,2018,0
+Mexico,Doctoral or equivalent level,2019,0
+Mexico,Doctoral or equivalent level,2020,0
+Mexico,Doctoral or equivalent level,2021,0
+Netherlands,Short-cycle tertiary education,2013,0
+Netherlands,Short-cycle tertiary education,2014,0
+Netherlands,Short-cycle tertiary education,2015,0
+Netherlands,Short-cycle tertiary education,2016,0
+Netherlands,Short-cycle tertiary education,2017,0
+Netherlands,Short-cycle tertiary education,2018,0
+Netherlands,Short-cycle tertiary education,2019,0
+Netherlands,Short-cycle tertiary education,2020,0
+Netherlands,Short-cycle tertiary education,2021,0
+Netherlands,Bachelor or equivalent level,2013,8685
+Netherlands,Bachelor or equivalent level,2014,8837
+Netherlands,Bachelor or equivalent level,2015,9841
+Netherlands,Bachelor or equivalent level,2016,9924
+Netherlands,Bachelor or equivalent level,2017,10133
+Netherlands,Bachelor or equivalent level,2018,10644
+Netherlands,Bachelor or equivalent level,2019,11912
+Netherlands,Bachelor or equivalent level,2020,13298
+Netherlands,Bachelor or equivalent level,2021,15104
+Netherlands,Master or equivalent level,2013,8233
+Netherlands,Master or equivalent level,2014,8277
+Netherlands,Master or equivalent level,2015,9574
+Netherlands,Master or equivalent level,2016,10630
+Netherlands,Master or equivalent level,2017,11904
+Netherlands,Master or equivalent level,2018,13184
+Netherlands,Master or equivalent level,2019,14426
+Netherlands,Master or equivalent level,2020,15233
+Netherlands,Master or equivalent level,2021,16992
+Netherlands,Doctoral or equivalent level,2013,1743
+Netherlands,Doctoral or equivalent level,2014,1792
+Netherlands,Doctoral or equivalent level,2015,1948
+Netherlands,Doctoral or equivalent level,2016,2086
+Netherlands,Doctoral or equivalent level,2017,1994
+Netherlands,Doctoral or equivalent level,2018,1994
+Netherlands,Doctoral or equivalent level,2019,2021
+Netherlands,Doctoral or equivalent level,2020,1990
+Netherlands,Doctoral or equivalent level,2021,1988
+New Zealand,Short-cycle tertiary education,2013,3965
+New Zealand,Short-cycle tertiary education,2014,4628
+New Zealand,Short-cycle tertiary education,2015,6002
+New Zealand,Short-cycle tertiary education,2016,7869
+New Zealand,Short-cycle tertiary education,2017,6465
+New Zealand,Short-cycle tertiary education,2018,5225
+New Zealand,Short-cycle tertiary education,2019,3899
+New Zealand,Short-cycle tertiary education,2020,3526
+New Zealand,Short-cycle tertiary education,2021,3167
+New Zealand,Bachelor or equivalent level,2013,6593
+New Zealand,Bachelor or equivalent level,2014,6785
+New Zealand,Bachelor or equivalent level,2015,8416
+New Zealand,Bachelor or equivalent level,2016,9953
+New Zealand,Bachelor or equivalent level,2017,10108
+New Zealand,Bachelor or equivalent level,2018,10881
+New Zealand,Bachelor or equivalent level,2019,10872
+New Zealand,Bachelor or equivalent level,2020,11426
+New Zealand,Bachelor or equivalent level,2021,7150
+New Zealand,Master or equivalent level,2013,1279
+New Zealand,Master or equivalent level,2014,1573
+New Zealand,Master or equivalent level,2015,1661
+New Zealand,Master or equivalent level,2016,2045
+New Zealand,Master or equivalent level,2017,2231
+New Zealand,Master or equivalent level,2018,2900
+New Zealand,Master or equivalent level,2019,3377
+New Zealand,Master or equivalent level,2020,3973
+New Zealand,Master or equivalent level,2021,3293
+New Zealand,Doctoral or equivalent level,2013,584
+New Zealand,Doctoral or equivalent level,2014,681
+New Zealand,Doctoral or equivalent level,2015,679
+New Zealand,Doctoral or equivalent level,2016,663
+New Zealand,Doctoral or equivalent level,2017,745
+New Zealand,Doctoral or equivalent level,2018,734
+New Zealand,Doctoral or equivalent level,2019,789
+New Zealand,Doctoral or equivalent level,2020,857
+New Zealand,Doctoral or equivalent level,2021,1010
+Norway,Short-cycle tertiary education,2013,6
+Norway,Short-cycle tertiary education,2014,19
+Norway,Short-cycle tertiary education,2015,5
+Norway,Short-cycle tertiary education,2016,11
+Norway,Short-cycle tertiary education,2017,41
+Norway,Short-cycle tertiary education,2018,41
+Norway,Short-cycle tertiary education,2019,36
+Norway,Short-cycle tertiary education,2020,36
+Norway,Short-cycle tertiary education,2021,51
+Norway,Bachelor or equivalent level,2013,638
+Norway,Bachelor or equivalent level,2014,693
+Norway,Bachelor or equivalent level,2015,792
+Norway,Bachelor or equivalent level,2016,784
+Norway,Bachelor or equivalent level,2017,956
+Norway,Bachelor or equivalent level,2018,1004
+Norway,Bachelor or equivalent level,2019,940
+Norway,Bachelor or equivalent level,2020,941
+Norway,Bachelor or equivalent level,2021,944
+Norway,Master or equivalent level,2013,1422
+Norway,Master or equivalent level,2014,1501
+Norway,Master or equivalent level,2015,1515
+Norway,Master or equivalent level,2016,1755
+Norway,Master or equivalent level,2017,1796
+Norway,Master or equivalent level,2018,1668
+Norway,Master or equivalent level,2019,1678
+Norway,Master or equivalent level,2020,1566
+Norway,Master or equivalent level,2021,1738
+Norway,Doctoral or equivalent level,2013,471
+Norway,Doctoral or equivalent level,2014,400
+Norway,Doctoral or equivalent level,2015,365
+Norway,Doctoral or equivalent level,2016,414
+Norway,Doctoral or equivalent level,2017,427
+Norway,Doctoral or equivalent level,2018,460
+Norway,Doctoral or equivalent level,2019,537
+Norway,Doctoral or equivalent level,2020,480
+Norway,Doctoral or equivalent level,2021,538
+Poland,Short-cycle tertiary education,2013,0
+Poland,Short-cycle tertiary education,2014,0
+Poland,Short-cycle tertiary education,2015,0
+Poland,Short-cycle tertiary education,2016,0
+Poland,Short-cycle tertiary education,2017,0
+Poland,Short-cycle tertiary education,2018,0
+Poland,Short-cycle tertiary education,2019,0
+Poland,Short-cycle tertiary education,2020,0
+Poland,Short-cycle tertiary education,2021,0
+Poland,Bachelor or equivalent level,2013,2197
+Poland,Bachelor or equivalent level,2014,2582
+Poland,Bachelor or equivalent level,2015,3542
+Poland,Bachelor or equivalent level,2016,4793
+Poland,Bachelor or equivalent level,2017,5430
+Poland,Bachelor or equivalent level,2018,5983
+Poland,Bachelor or equivalent level,2019,5962
+Poland,Bachelor or equivalent level,2020,9931
+Poland,Bachelor or equivalent level,2021,12279
+Poland,Master or equivalent level,2013,2553
+Poland,Master or equivalent level,2014,2917
+Poland,Master or equivalent level,2015,3344
+Poland,Master or equivalent level,2016,3987
+Poland,Master or equivalent level,2017,4491
+Poland,Master or equivalent level,2018,4658
+Poland,Master or equivalent level,2019,5217
+Poland,Master or equivalent level,2020,5589
+Poland,Master or equivalent level,2021,6696
+Poland,Doctoral or equivalent level,2013,0
+Poland,Doctoral or equivalent level,2014,0
+Poland,Doctoral or equivalent level,2015,0
+Poland,Doctoral or equivalent level,2016,0
+Poland,Doctoral or equivalent level,2017,0
+Poland,Doctoral or equivalent level,2018,72
+Poland,Doctoral or equivalent level,2019,100
+Poland,Doctoral or equivalent level,2020,157
+Poland,Doctoral or equivalent level,2021,33
+Portugal,Short-cycle tertiary education,2013,0
+Portugal,Short-cycle tertiary education,2014,0
+Portugal,Short-cycle tertiary education,2015,0
+Portugal,Short-cycle tertiary education,2016,1
+Portugal,Short-cycle tertiary education,2017,36
+Portugal,Short-cycle tertiary education,2018,80
+Portugal,Short-cycle tertiary education,2019,87
+Portugal,Short-cycle tertiary education,2020,183
+Portugal,Short-cycle tertiary education,2021,271
+Portugal,Bachelor or equivalent level,2013,862
+Portugal,Bachelor or equivalent level,2014,884
+Portugal,Bachelor or equivalent level,2015,994
+Portugal,Bachelor or equivalent level,2016,1005
+Portugal,Bachelor or equivalent level,2017,1133
+Portugal,Bachelor or equivalent level,2018,1354
+Portugal,Bachelor or equivalent level,2019,1589
+Portugal,Bachelor or equivalent level,2020,2110
+Portugal,Bachelor or equivalent level,2021,2730
+Portugal,Master or equivalent level,2013,1145
+Portugal,Master or equivalent level,2014,1357
+Portugal,Master or equivalent level,2015,1852
+Portugal,Master or equivalent level,2016,2069
+Portugal,Master or equivalent level,2017,2130
+Portugal,Master or equivalent level,2018,2719
+Portugal,Master or equivalent level,2019,3354
+Portugal,Master or equivalent level,2020,4192
+Portugal,Master or equivalent level,2021,4463
+Portugal,Doctoral or equivalent level,2013,271
+Portugal,Doctoral or equivalent level,2014,329
+Portugal,Doctoral or equivalent level,2015,382
+Portugal,Doctoral or equivalent level,2016,452
+Portugal,Doctoral or equivalent level,2017,485
+Portugal,Doctoral or equivalent level,2018,591
+Portugal,Doctoral or equivalent level,2019,643
+Portugal,Doctoral or equivalent level,2020,579
+Portugal,Doctoral or equivalent level,2021,629
+Slovak Republic,Short-cycle tertiary education,2013,6
+Slovak Republic,Short-cycle tertiary education,2014,7
+Slovak Republic,Short-cycle tertiary education,2015,7
+Slovak Republic,Short-cycle tertiary education,2016,8
+Slovak Republic,Short-cycle tertiary education,2017,3
+Slovak Republic,Short-cycle tertiary education,2018,5
+Slovak Republic,Short-cycle tertiary education,2019,6
+Slovak Republic,Short-cycle tertiary education,2020,4
+Slovak Republic,Short-cycle tertiary education,2021,8
+Slovak Republic,Bachelor or equivalent level,2013,1380
+Slovak Republic,Bachelor or equivalent level,2014,1298
+Slovak Republic,Bachelor or equivalent level,2015,1174
+Slovak Republic,Bachelor or equivalent level,2016,1195
+Slovak Republic,Bachelor or equivalent level,2017,1166
+Slovak Republic,Bachelor or equivalent level,2018,1143
+Slovak Republic,Bachelor or equivalent level,2019,1143
+Slovak Republic,Bachelor or equivalent level,2020,1221
+Slovak Republic,Bachelor or equivalent level,2021,1399
+Slovak Republic,Master or equivalent level,2013,1211
+Slovak Republic,Master or equivalent level,2014,1414
+Slovak Republic,Master or equivalent level,2015,1412
+Slovak Republic,Master or equivalent level,2016,1716
+Slovak Republic,Master or equivalent level,2017,1322
+Slovak Republic,Master or equivalent level,2018,1238
+Slovak Republic,Master or equivalent level,2019,1248
+Slovak Republic,Master or equivalent level,2020,1277
+Slovak Republic,Master or equivalent level,2021,1371
+Slovak Republic,Doctoral or equivalent level,2013,135
+Slovak Republic,Doctoral or equivalent level,2014,187
+Slovak Republic,Doctoral or equivalent level,2015,140
+Slovak Republic,Doctoral or equivalent level,2016,119
+Slovak Republic,Doctoral or equivalent level,2017,134
+Slovak Republic,Doctoral or equivalent level,2018,109
+Slovak Republic,Doctoral or equivalent level,2019,125
+Slovak Republic,Doctoral or equivalent level,2020,89
+Slovak Republic,Doctoral or equivalent level,2021,101
+Spain,Short-cycle tertiary education,2013,0
+Spain,Short-cycle tertiary education,2014,0
+Spain,Short-cycle tertiary education,2015,0
+Spain,Short-cycle tertiary education,2016,831
+Spain,Short-cycle tertiary education,2017,796
+Spain,Short-cycle tertiary education,2018,1576
+Spain,Short-cycle tertiary education,2019,1643
+Spain,Short-cycle tertiary education,2020,1639
+Spain,Short-cycle tertiary education,2021,1571
+Spain,Bachelor or equivalent level,2013,660
+Spain,Bachelor or equivalent level,2014,1008
+Spain,Bachelor or equivalent level,2015,1072
+Spain,Bachelor or equivalent level,2016,1397
+Spain,Bachelor or equivalent level,2017,2066
+Spain,Bachelor or equivalent level,2018,2267
+Spain,Bachelor or equivalent level,2019,2678
+Spain,Bachelor or equivalent level,2020,3298
+Spain,Bachelor or equivalent level,2021,3440
+Spain,Master or equivalent level,2013,7787
+Spain,Master or equivalent level,2014,7827
+Spain,Master or equivalent level,2015,9761
+Spain,Master or equivalent level,2016,10340
+Spain,Master or equivalent level,2017,15185
+Spain,Master or equivalent level,2018,16911
+Spain,Master or equivalent level,2019,16413
+Spain,Master or equivalent level,2020,16939
+Spain,Master or equivalent level,2021,13477
+Spain,Doctoral or equivalent level,2013,0
+Spain,Doctoral or equivalent level,2014,0
+Spain,Doctoral or equivalent level,2015,0
+Spain,Doctoral or equivalent level,2016,0
+Spain,Doctoral or equivalent level,2017,0
+Spain,Doctoral or equivalent level,2018,0
+Spain,Doctoral or equivalent level,2019,1471
+Spain,Doctoral or equivalent level,2020,1485
+Spain,Doctoral or equivalent level,2021,1834
+Sweden,Short-cycle tertiary education,2013,14
+Sweden,Short-cycle tertiary education,2014,19
+Sweden,Short-cycle tertiary education,2015,10
+Sweden,Short-cycle tertiary education,2016,15
+Sweden,Short-cycle tertiary education,2017,19
+Sweden,Short-cycle tertiary education,2018,12
+Sweden,Short-cycle tertiary education,2019,23
+Sweden,Short-cycle tertiary education,2020,10
+Sweden,Short-cycle tertiary education,2021,17
+Sweden,Bachelor or equivalent level,2013,840
+Sweden,Bachelor or equivalent level,2014,834
+Sweden,Bachelor or equivalent level,2015,797
+Sweden,Bachelor or equivalent level,2016,738
+Sweden,Bachelor or equivalent level,2017,656
+Sweden,Bachelor or equivalent level,2018,819
+Sweden,Bachelor or equivalent level,2019,822
+Sweden,Bachelor or equivalent level,2020,901
+Sweden,Bachelor or equivalent level,2021,1060
+Sweden,Master or equivalent level,2013,6333
+Sweden,Master or equivalent level,2014,5445
+Sweden,Master or equivalent level,2015,4785
+Sweden,Master or equivalent level,2016,5065
+Sweden,Master or equivalent level,2017,5101
+Sweden,Master or equivalent level,2018,5353
+Sweden,Master or equivalent level,2019,6144
+Sweden,Master or equivalent level,2020,6709
+Sweden,Master or equivalent level,2021,7156
+Sweden,Doctoral or equivalent level,2013,1060
+Sweden,Doctoral or equivalent level,2014,1171
+Sweden,Doctoral or equivalent level,2015,1235
+Sweden,Doctoral or equivalent level,2016,1364
+Sweden,Doctoral or equivalent level,2017,1394
+Sweden,Doctoral or equivalent level,2018,1197
+Sweden,Doctoral or equivalent level,2019,1308
+Sweden,Doctoral or equivalent level,2020,1180
+Sweden,Doctoral or equivalent level,2021,1179
+Switzerland,Short-cycle tertiary education,2013,0
+Switzerland,Short-cycle tertiary education,2014,0
+Switzerland,Short-cycle tertiary education,2015,0
+Switzerland,Short-cycle tertiary education,2016,0
+Switzerland,Short-cycle tertiary education,2017,0
+Switzerland,Short-cycle tertiary education,2018,0
+Switzerland,Short-cycle tertiary education,2019,0
+Switzerland,Short-cycle tertiary education,2020,0
+Switzerland,Short-cycle tertiary education,2021,0
+Switzerland,Bachelor or equivalent level,2013,3710
+Switzerland,Bachelor or equivalent level,2014,3867
+Switzerland,Bachelor or equivalent level,2015,3959
+Switzerland,Bachelor or equivalent level,2016,4000
+Switzerland,Bachelor or equivalent level,2017,4046
+Switzerland,Bachelor or equivalent level,2018,4006
+Switzerland,Bachelor or equivalent level,2019,4088
+Switzerland,Bachelor or equivalent level,2020,4266
+Switzerland,Bachelor or equivalent level,2021,4411
+Switzerland,Master or equivalent level,2013,5664
+Switzerland,Master or equivalent level,2014,6164
+Switzerland,Master or equivalent level,2015,6356
+Switzerland,Master or equivalent level,2016,6733
+Switzerland,Master or equivalent level,2017,6863
+Switzerland,Master or equivalent level,2018,6944
+Switzerland,Master or equivalent level,2019,6921
+Switzerland,Master or equivalent level,2020,6963
+Switzerland,Master or equivalent level,2021,7697
+Switzerland,Doctoral or equivalent level,2013,1866
+Switzerland,Doctoral or equivalent level,2014,2085
+Switzerland,Doctoral or equivalent level,2015,2082
+Switzerland,Doctoral or equivalent level,2016,2243
+Switzerland,Doctoral or equivalent level,2017,2340
+Switzerland,Doctoral or equivalent level,2018,2350
+Switzerland,Doctoral or equivalent level,2019,2479
+Switzerland,Doctoral or equivalent level,2020,2543
+Switzerland,Doctoral or equivalent level,2021,2561
+T�rkiye,Short-cycle tertiary education,2013,285
+T�rkiye,Short-cycle tertiary education,2014,265
+T�rkiye,Short-cycle tertiary education,2015,311
+T�rkiye,Short-cycle tertiary education,2016,505
+T�rkiye,Short-cycle tertiary education,2017,530
+T�rkiye,Short-cycle tertiary education,2018,540
+T�rkiye,Short-cycle tertiary education,2019,657
+T�rkiye,Short-cycle tertiary education,2020,1170
+T�rkiye,Short-cycle tertiary education,2021,2374
+T�rkiye,Bachelor or equivalent level,2013,1815
+T�rkiye,Bachelor or equivalent level,2014,2243
+T�rkiye,Bachelor or equivalent level,2015,3002
+T�rkiye,Bachelor or equivalent level,2016,3933
+T�rkiye,Bachelor or equivalent level,2017,4897
+T�rkiye,Bachelor or equivalent level,2018,5638
+T�rkiye,Bachelor or equivalent level,2019,6411
+T�rkiye,Bachelor or equivalent level,2020,7361
+T�rkiye,Bachelor or equivalent level,2021,8927
+T�rkiye,Master or equivalent level,2013,847
+T�rkiye,Master or equivalent level,2014,1465
+T�rkiye,Master or equivalent level,2015,1934
+T�rkiye,Master or equivalent level,2016,2606
+T�rkiye,Master or equivalent level,2017,3749
+T�rkiye,Master or equivalent level,2018,3990
+T�rkiye,Master or equivalent level,2019,4766
+T�rkiye,Master or equivalent level,2020,4271
+T�rkiye,Master or equivalent level,2021,5664
+T�rkiye,Doctoral or equivalent level,2013,247
+T�rkiye,Doctoral or equivalent level,2014,152
+T�rkiye,Doctoral or equivalent level,2015,211
+T�rkiye,Doctoral or equivalent level,2016,325
+T�rkiye,Doctoral or equivalent level,2017,403
+T�rkiye,Doctoral or equivalent level,2018,524
+T�rkiye,Doctoral or equivalent level,2019,728
+T�rkiye,Doctoral or equivalent level,2020,615
+T�rkiye,Doctoral or equivalent level,2021,749
+United Kingdom,Short-cycle tertiary education,2013,9414
+United Kingdom,Short-cycle tertiary education,2014,5715
+United Kingdom,Short-cycle tertiary education,2015,8257
+United Kingdom,Short-cycle tertiary education,2016,7748
+United Kingdom,Short-cycle tertiary education,2017,7622
+United Kingdom,Short-cycle tertiary education,2018,7443
+United Kingdom,Short-cycle tertiary education,2019,8448
+United Kingdom,Short-cycle tertiary education,2020,10207
+United Kingdom,Short-cycle tertiary education,2021,10788
+United Kingdom,Bachelor or equivalent level,2013,63148
+United Kingdom,Bachelor or equivalent level,2014,69732
+United Kingdom,Bachelor or equivalent level,2015,66750
+United Kingdom,Bachelor or equivalent level,2016,67605
+United Kingdom,Bachelor or equivalent level,2017,70065
+United Kingdom,Bachelor or equivalent level,2018,73224
+United Kingdom,Bachelor or equivalent level,2019,77480
+United Kingdom,Bachelor or equivalent level,2020,78449
+United Kingdom,Bachelor or equivalent level,2021,80769
+United Kingdom,Master or equivalent level,2013,108256
+United Kingdom,Master or equivalent level,2014,108177
+United Kingdom,Master or equivalent level,2015,111723
+United Kingdom,Master or equivalent level,2016,110000
+United Kingdom,Master or equivalent level,2017,110508
+United Kingdom,Master or equivalent level,2018,112704
+United Kingdom,Master or equivalent level,2019,127056
+United Kingdom,Master or equivalent level,2020,130383
+United Kingdom,Master or equivalent level,2021,154392
+United Kingdom,Doctoral or equivalent level,2013,11324
+United Kingdom,Doctoral or equivalent level,2014,10720
+United Kingdom,Doctoral or equivalent level,2015,11465
+United Kingdom,Doctoral or equivalent level,2016,12113
+United Kingdom,Doctoral or equivalent level,2017,12808
+United Kingdom,Doctoral or equivalent level,2018,13718
+United Kingdom,Doctoral or equivalent level,2019,13419
+United Kingdom,Doctoral or equivalent level,2020,12882
+United Kingdom,Doctoral or equivalent level,2021,11216
+United States of America,Short-cycle tertiary education,2013,0
+United States of America,Short-cycle tertiary education,2014,0
+United States of America,Short-cycle tertiary education,2015,0
+United States of America,Short-cycle tertiary education,2016,0
+United States of America,Short-cycle tertiary education,2017,0
+United States of America,Short-cycle tertiary education,2018,0
+United States of America,Short-cycle tertiary education,2019,0
+United States of America,Short-cycle tertiary education,2020,0
+United States of America,Short-cycle tertiary education,2021,0
+United States of America,Bachelor or equivalent level,2013,0
+United States of America,Bachelor or equivalent level,2014,0
+United States of America,Bachelor or equivalent level,2015,0
+United States of America,Bachelor or equivalent level,2016,0
+United States of America,Bachelor or equivalent level,2017,0
+United States of America,Bachelor or equivalent level,2018,0
+United States of America,Bachelor or equivalent level,2019,0
+United States of America,Bachelor or equivalent level,2020,0
+United States of America,Bachelor or equivalent level,2021,0
+United States of America,Master or equivalent level,2013,0
+United States of America,Master or equivalent level,2014,0
+United States of America,Master or equivalent level,2015,0
+United States of America,Master or equivalent level,2016,0
+United States of America,Master or equivalent level,2017,0
+United States of America,Master or equivalent level,2018,0
+United States of America,Master or equivalent level,2019,0
+United States of America,Master or equivalent level,2020,0
+United States of America,Master or equivalent level,2021,0
+United States of America,Doctoral or equivalent level,2013,0
+United States of America,Doctoral or equivalent level,2014,0
+United States of America,Doctoral or equivalent level,2015,0
+United States of America,Doctoral or equivalent level,2016,0
+United States of America,Doctoral or equivalent level,2017,0
+United States of America,Doctoral or equivalent level,2018,0
+United States of America,Doctoral or equivalent level,2019,0
+United States of America,Doctoral or equivalent level,2020,0
+United States of America,Doctoral or equivalent level,2021,0
+Brazil,Short-cycle tertiary education,2013,2
+Brazil,Short-cycle tertiary education,2014,1
+Brazil,Short-cycle tertiary education,2015,6
+Brazil,Short-cycle tertiary education,2016,3
+Brazil,Short-cycle tertiary education,2017,0
+Brazil,Short-cycle tertiary education,2018,0
+Brazil,Short-cycle tertiary education,2019,0
+Brazil,Short-cycle tertiary education,2020,0
+Brazil,Short-cycle tertiary education,2021,0
+Brazil,Bachelor or equivalent level,2013,1760
+Brazil,Bachelor or equivalent level,2014,1993
+Brazil,Bachelor or equivalent level,2015,2174
+Brazil,Bachelor or equivalent level,2016,2272
+Brazil,Bachelor or equivalent level,2017,2491
+Brazil,Bachelor or equivalent level,2018,2788
+Brazil,Bachelor or equivalent level,2019,2597
+Brazil,Bachelor or equivalent level,2021,2697
+Brazil,Master or equivalent level,2013,0
+Brazil,Master or equivalent level,2014,589
+Brazil,Master or equivalent level,2015,827
+Brazil,Master or equivalent level,2016,839
+Brazil,Master or equivalent level,2017,846
+Brazil,Master or equivalent level,2018,713
+Brazil,Master or equivalent level,2019,670
+Brazil,Master or equivalent level,2021,593
+Brazil,Doctoral or equivalent level,2013,0
+Brazil,Doctoral or equivalent level,2014,294
+Brazil,Doctoral or equivalent level,2015,398
+Brazil,Doctoral or equivalent level,2016,441
+Brazil,Doctoral or equivalent level,2017,629
+Brazil,Doctoral or equivalent level,2018,586
+Brazil,Doctoral or equivalent level,2019,655
+Brazil,Doctoral or equivalent level,2020,529
+Brazil,Doctoral or equivalent level,2021,468
+Chile,Short-cycle tertiary education,2013,87
+Chile,Short-cycle tertiary education,2014,91
+Chile,Short-cycle tertiary education,2015,34
+Chile,Short-cycle tertiary education,2016,121
+Chile,Short-cycle tertiary education,2017,232
+Chile,Short-cycle tertiary education,2018,286
+Chile,Short-cycle tertiary education,2019,869
+Chile,Short-cycle tertiary education,2020,717
+Chile,Short-cycle tertiary education,2021,1392
+Chile,Bachelor or equivalent level,2013,92
+Chile,Bachelor or equivalent level,2014,108
+Chile,Bachelor or equivalent level,2015,65
+Chile,Bachelor or equivalent level,2016,151
+Chile,Bachelor or equivalent level,2017,132
+Chile,Bachelor or equivalent level,2018,173
+Chile,Bachelor or equivalent level,2019,682
+Chile,Bachelor or equivalent level,2020,381
+Chile,Bachelor or equivalent level,2021,867
+Chile,Master or equivalent level,2013,201
+Chile,Master or equivalent level,2014,212
+Chile,Master or equivalent level,2015,272
+Chile,Master or equivalent level,2016,213
+Chile,Master or equivalent level,2017,166
+Chile,Master or equivalent level,2018,145
+Chile,Master or equivalent level,2019,2173
+Chile,Master or equivalent level,2020,798
+Chile,Master or equivalent level,2021,2606
+Chile,Doctoral or equivalent level,2013,24
+Chile,Doctoral or equivalent level,2014,15
+Chile,Doctoral or equivalent level,2015,30
+Chile,Doctoral or equivalent level,2016,19
+Chile,Doctoral or equivalent level,2017,33
+Chile,Doctoral or equivalent level,2018,37
+Chile,Doctoral or equivalent level,2019,168
+Chile,Doctoral or equivalent level,2020,99
+Chile,Doctoral or equivalent level,2021,211
+Colombia,Short-cycle tertiary education,2013,0
+Colombia,Short-cycle tertiary education,2014,0
+Colombia,Short-cycle tertiary education,2015,0
+Colombia,Short-cycle tertiary education,2016,52
+Colombia,Short-cycle tertiary education,2017,48
+Colombia,Short-cycle tertiary education,2018,60
+Colombia,Short-cycle tertiary education,2019,73
+Colombia,Short-cycle tertiary education,2020,81
+Colombia,Short-cycle tertiary education,2021,94
+Colombia,Bachelor or equivalent level,2013,0
+Colombia,Bachelor or equivalent level,2014,0
+Colombia,Bachelor or equivalent level,2015,0
+Colombia,Bachelor or equivalent level,2016,221
+Colombia,Bachelor or equivalent level,2017,275
+Colombia,Bachelor or equivalent level,2018,313
+Colombia,Bachelor or equivalent level,2019,360
+Colombia,Bachelor or equivalent level,2020,447
+Colombia,Bachelor or equivalent level,2021,417
+Colombia,Master or equivalent level,2013,0
+Colombia,Master or equivalent level,2014,0
+Colombia,Master or equivalent level,2015,0
+Colombia,Master or equivalent level,2016,325
+Colombia,Master or equivalent level,2017,456
+Colombia,Master or equivalent level,2018,541
+Colombia,Master or equivalent level,2019,501
+Colombia,Master or equivalent level,2020,532
+Colombia,Master or equivalent level,2021,512
+Colombia,Doctoral or equivalent level,2013,0
+Colombia,Doctoral or equivalent level,2014,0
+Colombia,Doctoral or equivalent level,2015,0
+Colombia,Doctoral or equivalent level,2016,11
+Colombia,Doctoral or equivalent level,2017,16
+Colombia,Doctoral or equivalent level,2018,26
+Colombia,Doctoral or equivalent level,2019,24
+Colombia,Doctoral or equivalent level,2020,28
+Colombia,Doctoral or equivalent level,2021,28
+Estonia,Short-cycle tertiary education,2013,0
+Estonia,Short-cycle tertiary education,2014,0
+Estonia,Short-cycle tertiary education,2015,0
+Estonia,Short-cycle tertiary education,2016,0
+Estonia,Short-cycle tertiary education,2017,0
+Estonia,Short-cycle tertiary education,2018,0
+Estonia,Short-cycle tertiary education,2019,0
+Estonia,Short-cycle tertiary education,2020,0
+Estonia,Short-cycle tertiary education,2021,0
+Estonia,Bachelor or equivalent level,2013,87
+Estonia,Bachelor or equivalent level,2014,101
+Estonia,Bachelor or equivalent level,2015,213
+Estonia,Bachelor or equivalent level,2016,316
+Estonia,Bachelor or equivalent level,2017,314
+Estonia,Bachelor or equivalent level,2018,354
+Estonia,Bachelor or equivalent level,2019,396
+Estonia,Bachelor or equivalent level,2020,447
+Estonia,Bachelor or equivalent level,2021,492
+Estonia,Master or equivalent level,2013,156
+Estonia,Master or equivalent level,2014,155
+Estonia,Master or equivalent level,2015,219
+Estonia,Master or equivalent level,2016,358
+Estonia,Master or equivalent level,2017,495
+Estonia,Master or equivalent level,2018,647
+Estonia,Master or equivalent level,2019,709
+Estonia,Master or equivalent level,2020,852
+Estonia,Master or equivalent level,2021,986
+Estonia,Doctoral or equivalent level,2013,12
+Estonia,Doctoral or equivalent level,2014,10
+Estonia,Doctoral or equivalent level,2015,20
+Estonia,Doctoral or equivalent level,2016,33
+Estonia,Doctoral or equivalent level,2017,39
+Estonia,Doctoral or equivalent level,2018,40
+Estonia,Doctoral or equivalent level,2019,48
+Estonia,Doctoral or equivalent level,2020,47
+Estonia,Doctoral or equivalent level,2021,63
+Israel,Short-cycle tertiary education,2013,0
+Israel,Short-cycle tertiary education,2014,0
+Israel,Short-cycle tertiary education,2015,0
+Israel,Short-cycle tertiary education,2016,0
+Israel,Short-cycle tertiary education,2017,0
+Israel,Short-cycle tertiary education,2018,0
+Israel,Short-cycle tertiary education,2019,0
+Israel,Short-cycle tertiary education,2020,257
+Israel,Short-cycle tertiary education,2021,0
+Israel,Bachelor or equivalent level,2013,1410
+Israel,Bachelor or equivalent level,2014,1332
+Israel,Bachelor or equivalent level,2015,1300
+Israel,Bachelor or equivalent level,2016,1028
+Israel,Bachelor or equivalent level,2017,1254
+Israel,Bachelor or equivalent level,2018,1565
+Israel,Bachelor or equivalent level,2019,1560
+Israel,Bachelor or equivalent level,2020,1395
+Israel,Bachelor or equivalent level,2021,1266
+Israel,Master or equivalent level,2013,733
+Israel,Master or equivalent level,2014,808
+Israel,Master or equivalent level,2015,931
+Israel,Master or equivalent level,2016,371
+Israel,Master or equivalent level,2017,985
+Israel,Master or equivalent level,2018,990
+Israel,Master or equivalent level,2019,1062
+Israel,Master or equivalent level,2020,1246
+Israel,Master or equivalent level,2021,681
+Israel,Doctoral or equivalent level,2013,44
+Israel,Doctoral or equivalent level,2014,62
+Israel,Doctoral or equivalent level,2015,61
+Israel,Doctoral or equivalent level,2016,21
+Israel,Doctoral or equivalent level,2017,67
+Israel,Doctoral or equivalent level,2018,93
+Israel,Doctoral or equivalent level,2019,104
+Israel,Doctoral or equivalent level,2020,132
+Israel,Doctoral or equivalent level,2021,106
+Latvia,Short-cycle tertiary education,2013,14
+Latvia,Short-cycle tertiary education,2014,13
+Latvia,Short-cycle tertiary education,2015,55
+Latvia,Short-cycle tertiary education,2016,39
+Latvia,Short-cycle tertiary education,2017,12
+Latvia,Short-cycle tertiary education,2018,23
+Latvia,Short-cycle tertiary education,2019,16
+Latvia,Short-cycle tertiary education,2020,6
+Latvia,Short-cycle tertiary education,2021,22
+Latvia,Bachelor or equivalent level,2013,214
+Latvia,Bachelor or equivalent level,2014,165
+Latvia,Bachelor or equivalent level,2015,187
+Latvia,Bachelor or equivalent level,2016,226
+Latvia,Bachelor or equivalent level,2017,350
+Latvia,Bachelor or equivalent level,2018,372
+Latvia,Bachelor or equivalent level,2019,355
+Latvia,Bachelor or equivalent level,2020,404
+Latvia,Bachelor or equivalent level,2021,430
+Latvia,Master or equivalent level,2013,125
+Latvia,Master or equivalent level,2014,154
+Latvia,Master or equivalent level,2015,266
+Latvia,Master or equivalent level,2016,303
+Latvia,Master or equivalent level,2017,426
+Latvia,Master or equivalent level,2018,486
+Latvia,Master or equivalent level,2019,609
+Latvia,Master or equivalent level,2020,796
+Latvia,Master or equivalent level,2021,1011
+Latvia,Doctoral or equivalent level,2013,1
+Latvia,Doctoral or equivalent level,2014,5
+Latvia,Doctoral or equivalent level,2015,22
+Latvia,Doctoral or equivalent level,2016,22
+Latvia,Doctoral or equivalent level,2017,15
+Latvia,Doctoral or equivalent level,2018,11
+Latvia,Doctoral or equivalent level,2019,10
+Latvia,Doctoral or equivalent level,2020,13
+Latvia,Doctoral or equivalent level,2021,13
+Lithuania,Short-cycle tertiary education,2013,0
+Lithuania,Short-cycle tertiary education,2014,0
+Lithuania,Short-cycle tertiary education,2015,0
+Lithuania,Short-cycle tertiary education,2016,0
+Lithuania,Short-cycle tertiary education,2017,0
+Lithuania,Short-cycle tertiary education,2018,0
+Lithuania,Short-cycle tertiary education,2019,0
+Lithuania,Short-cycle tertiary education,2020,0
+Lithuania,Short-cycle tertiary education,2021,0
+Lithuania,Bachelor or equivalent level,2013,344
+Lithuania,Bachelor or equivalent level,2014,359
+Lithuania,Bachelor or equivalent level,2015,239
+Lithuania,Bachelor or equivalent level,2016,331
+Lithuania,Bachelor or equivalent level,2017,424
+Lithuania,Bachelor or equivalent level,2018,448
+Lithuania,Bachelor or equivalent level,2019,524
+Lithuania,Bachelor or equivalent level,2020,496
+Lithuania,Bachelor or equivalent level,2021,512
+Lithuania,Master or equivalent level,2013,201
+Lithuania,Master or equivalent level,2014,289
+Lithuania,Master or equivalent level,2015,452
+Lithuania,Master or equivalent level,2016,421
+Lithuania,Master or equivalent level,2017,556
+Lithuania,Master or equivalent level,2018,567
+Lithuania,Master or equivalent level,2019,667
+Lithuania,Master or equivalent level,2020,693
+Lithuania,Master or equivalent level,2021,751
+Lithuania,Doctoral or equivalent level,2013,5
+Lithuania,Doctoral or equivalent level,2014,0
+Lithuania,Doctoral or equivalent level,2015,14
+Lithuania,Doctoral or equivalent level,2016,8
+Lithuania,Doctoral or equivalent level,2017,9
+Lithuania,Doctoral or equivalent level,2018,13
+Lithuania,Doctoral or equivalent level,2019,16
+Lithuania,Doctoral or equivalent level,2020,18
+Lithuania,Doctoral or equivalent level,2021,19
+Costa Rica,Bachelor or equivalent level,2013,0
+Costa Rica,Bachelor or equivalent level,2014,0
+Costa Rica,Bachelor or equivalent level,2015,0
+Costa Rica,Bachelor or equivalent level,2016,0
+Costa Rica,Bachelor or equivalent level,2017,0
+Costa Rica,Bachelor or equivalent level,2018,0
+Costa Rica,Bachelor or equivalent level,2019,0
+Costa Rica,Bachelor or equivalent level,2020,0
+Costa Rica,Bachelor or equivalent level,2021,0
+Croatia,Short-cycle tertiary education,2013,0
+Croatia,Short-cycle tertiary education,2014,0
+Croatia,Short-cycle tertiary education,2015,0
+Croatia,Short-cycle tertiary education,2016,3
+Croatia,Short-cycle tertiary education,2017,5
+Croatia,Short-cycle tertiary education,2018,0
+Croatia,Short-cycle tertiary education,2019,0
+Croatia,Short-cycle tertiary education,2020,0
+Croatia,Short-cycle tertiary education,2021,0
+Bulgaria,Doctoral or equivalent level,2015,54
+Bulgaria,Doctoral or equivalent level,2016,64
+Bulgaria,Doctoral or equivalent level,2018,96
+Bulgaria,Doctoral or equivalent level,2019,113
+Bulgaria,Doctoral or equivalent level,2020,104
+Bulgaria,Doctoral or equivalent level,2021,116
+Costa Rica,Short-cycle tertiary education,2013,0
+Costa Rica,Short-cycle tertiary education,2014,0
+Costa Rica,Short-cycle tertiary education,2015,0
+Costa Rica,Short-cycle tertiary education,2016,0
+Costa Rica,Short-cycle tertiary education,2017,0
+Costa Rica,Short-cycle tertiary education,2018,0
+Costa Rica,Short-cycle tertiary education,2019,0
+Costa Rica,Short-cycle tertiary education,2020,0
+Costa Rica,Short-cycle tertiary education,2021,0
+Croatia,Master or equivalent level,2013,0
+Croatia,Master or equivalent level,2014,82
+Croatia,Master or equivalent level,2015,51
+Croatia,Master or equivalent level,2016,627
+Croatia,Master or equivalent level,2017,540
+Croatia,Master or equivalent level,2018,414
+Croatia,Master or equivalent level,2019,419
+Croatia,Master or equivalent level,2020,498
+Croatia,Master or equivalent level,2021,374
+Costa Rica,Doctoral or equivalent level,2013,0
+Costa Rica,Doctoral or equivalent level,2014,0
+Costa Rica,Doctoral or equivalent level,2015,0
+Costa Rica,Doctoral or equivalent level,2016,0
+Costa Rica,Doctoral or equivalent level,2017,0
+Costa Rica,Doctoral or equivalent level,2018,0
+Costa Rica,Doctoral or equivalent level,2019,0
+Costa Rica,Doctoral or equivalent level,2020,0
+Costa Rica,Doctoral or equivalent level,2021,0
+Romania,Short-cycle tertiary education,2013,0
+Romania,Short-cycle tertiary education,2014,0
+Romania,Short-cycle tertiary education,2015,0
+Romania,Short-cycle tertiary education,2016,0
+Romania,Short-cycle tertiary education,2017,0
+Romania,Short-cycle tertiary education,2018,0
+Romania,Short-cycle tertiary education,2019,0
+Romania,Short-cycle tertiary education,2020,0
+Romania,Short-cycle tertiary education,2021,0
+Bulgaria,Bachelor or equivalent level,2015,1025
+Bulgaria,Bachelor or equivalent level,2016,945
+Bulgaria,Bachelor or equivalent level,2018,687
+Bulgaria,Bachelor or equivalent level,2019,746
+Bulgaria,Bachelor or equivalent level,2020,723
+Bulgaria,Bachelor or equivalent level,2021,801
+Bulgaria,Master or equivalent level,2015,856
+Bulgaria,Master or equivalent level,2016,950
+Bulgaria,Master or equivalent level,2018,1059
+Bulgaria,Master or equivalent level,2019,1185
+Bulgaria,Master or equivalent level,2020,1212
+Bulgaria,Master or equivalent level,2021,1663
+Romania,Master or equivalent level,2013,1705
+Romania,Master or equivalent level,2014,2034
+Romania,Master or equivalent level,2015,2335
+Romania,Master or equivalent level,2016,2526
+Romania,Master or equivalent level,2017,3186
+Romania,Master or equivalent level,2018,3233
+Romania,Master or equivalent level,2019,3495
+Romania,Master or equivalent level,2020,3646
+Romania,Master or equivalent level,2021,3682
+Costa Rica,Master or equivalent level,2013,0
+Costa Rica,Master or equivalent level,2014,0
+Costa Rica,Master or equivalent level,2015,0
+Costa Rica,Master or equivalent level,2016,0
+Costa Rica,Master or equivalent level,2017,0
+Costa Rica,Master or equivalent level,2018,0
+Costa Rica,Master or equivalent level,2019,0
+Costa Rica,Master or equivalent level,2020,0
+Costa Rica,Master or equivalent level,2021,0
+Croatia,Bachelor or equivalent level,2013,0
+Croatia,Bachelor or equivalent level,2014,35
+Croatia,Bachelor or equivalent level,2015,30
+Croatia,Bachelor or equivalent level,2016,421
+Croatia,Bachelor or equivalent level,2017,489
+Croatia,Bachelor or equivalent level,2018,342
+Croatia,Bachelor or equivalent level,2019,393
+Croatia,Bachelor or equivalent level,2020,473
+Croatia,Bachelor or equivalent level,2021,345
+Croatia,Doctoral or equivalent level,2013,0
+Croatia,Doctoral or equivalent level,2014,21
+Croatia,Doctoral or equivalent level,2015,19
+Croatia,Doctoral or equivalent level,2016,54
+Croatia,Doctoral or equivalent level,2017,65
+Croatia,Doctoral or equivalent level,2018,68
+Croatia,Doctoral or equivalent level,2019,69
+Croatia,Doctoral or equivalent level,2020,46
+Croatia,Doctoral or equivalent level,2021,60
+Romania,Bachelor or equivalent level,2013,1535
+Romania,Bachelor or equivalent level,2014,1634
+Romania,Bachelor or equivalent level,2015,1892
+Romania,Bachelor or equivalent level,2016,1800
+Romania,Bachelor or equivalent level,2017,1789
+Romania,Bachelor or equivalent level,2018,1914
+Romania,Bachelor or equivalent level,2019,2051
+Romania,Bachelor or equivalent level,2020,2161
+Romania,Bachelor or equivalent level,2021,2476
+Bulgaria,Short-cycle tertiary education,2015,0
+Bulgaria,Short-cycle tertiary education,2016,0
+Bulgaria,Short-cycle tertiary education,2018,0
+Bulgaria,Short-cycle tertiary education,2019,0
+Bulgaria,Short-cycle tertiary education,2020,0
+Bulgaria,Short-cycle tertiary education,2021,0
+Romania,Doctoral or equivalent level,2013,165
+Romania,Doctoral or equivalent level,2014,88
+Romania,Doctoral or equivalent level,2015,99
+Romania,Doctoral or equivalent level,2016,94
+Romania,Doctoral or equivalent level,2017,90
+Romania,Doctoral or equivalent level,2018,124
+Romania,Doctoral or equivalent level,2019,141
+Romania,Doctoral or equivalent level,2020,124
+Romania,Doctoral or equivalent level,2021,143
