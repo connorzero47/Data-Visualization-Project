@@ -15,14 +15,16 @@
         <h1>Global Academic Pathways: International Student Mobility</h1>
     </div>
     <div class="control-bar">
-        <div class="control-label">Educational Level</div>
-        <div class="control-dropdown">
-            <select id="education-level">
-                <option value="Short-cycle tertiary education">Short-cycle tertiary education</option>
-                <option value="Bachelor or equivalent level">Bachelor’s or equivalent level</option>
-                <option value="Master or equivalent level">Master’s or equivalent level</option>
-                <option value="Doctoral or equivalent level">Doctoral or equivalent level</option>
-            </select>
+        <div class="control-container">
+            <div class="control-label">Educational Level</div>
+            <div class="control-dropdown">
+                <select id="education-level">
+                    <option value="Short-cycle tertiary education">Short-cycle tertiary education</option>
+                    <option value="Bachelor or equivalent level">Bachelor's or equivalent level</option>
+                    <option value="Master or equivalent level">Master's or equivalent level</option>
+                    <option value="Doctoral or equivalent level">Doctoral or equivalent level</option>
+                </select>
+            </div>
         </div>
     </div>
     <div id="geo-container">
@@ -31,27 +33,28 @@
             <div class="legend">
                 <div class="legend-item">
                     <div class="legend-color" style="background-color: #ff9800;"></div>
-                    <div class="legend-text">1,000-1,999</div>
+                    <div class="legend-text"> Less than 10</div>
                 </div>
                 <div class="legend-item">
                     <div class="legend-color" style="background-color: #ff8800;"></div>
-                    <div class="legend-text">10,000-19,999</div>
+                    <div class="legend-text">+100</div>
                 </div>
                 <div class="legend-item">
                     <div class="legend-color" style="background-color: #ff7800;"></div>
-                    <div class="legend-text">100,000-199,999</div>
-                </div>
-                <div class="legend-item">
-                    <div class="legend-color" style="background-color: #ff6600;"></div>
-                    <div class="legend-text">1,000,000-1,999,999</div>
+                    <div class="legend-text">+1,000</div>
                 </div>
                 <div class="legend-item">
                     <div class="legend-color" style="background-color: #ff3800;"></div>
-                    <div class="legend-text">+10,000,000</div>
+                    <div class="legend-text">+10,000</div>
                 </div>
             </div>
         </div>
+    </div> 
+    <div id="slide">
     </div>
-    <div id="slide"></div>
+    <button id="play-button">Play</button>
+    <footer>
+        <p>Data source: International graduates by country of origin from OECD.Stat</p>
+    </footer>
 </body>
 </html>

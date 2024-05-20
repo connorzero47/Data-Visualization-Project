@@ -2,37 +2,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightblue;
+    background: linear-gradient(to bottom, rgb(123, 214, 245), white); 
 }
 
 .title-bar {
-    background-color: black;
-    color: white;
-    text-align: center;
+    text-align: center; 
     padding: 10px 0;
 }
 
 .title-bar h1 {
     margin: 0;
     font-size: 24px;
+    color: black; 
+    text-shadow: 1px 1px;
 }
 
 .control-bar {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    background-color: #000000;
     padding: 5px 20px; 
     margin-top: 10px; 
+}
+
+.control-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid black; 
+    padding: 5px; 
+    border-radius: 5px; 
 }
 
 .control-label {
     margin-right: 10px;
     font-weight: bold;
-    color: white; 
+    color: rgb(0, 0, 0); 
 }
 
-.control-dropdown {
+.control-dropdown {  
     margin-left: 10px;
 }
 
@@ -44,7 +51,7 @@ body {
 h2 {
     text-align: center;
     margin-top: 20px;
-    color: #333;
+    color: #030303;
 }
 
 #geo-container {
@@ -82,7 +89,7 @@ h2 {
 }
 
 .legend {
-    background-color: lightblue;
+    background-color: transparent;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -102,7 +109,46 @@ h2 {
     font-size: 14px;
 }
 
-.slide {
-    position: fixed;
-    margin-top: 10px;
+#play-button {
+    background: darkgreen;
+    position: relative;
+    left: 50%;
+    font-size: 15px;
+    padding-right: 26px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    padding: 0 12px;
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+  }
+  
+  #play-button:hover {
+    background-color: #696969;
+  }
+
+#slide {
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    color: #000;
+    background-color: transparent; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

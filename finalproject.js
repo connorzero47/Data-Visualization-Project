@@ -1,10 +1,14 @@
 var w = 1300;
 var h = 800;
-var scaleX = w / (2 * Math.PI); // Adjust the scale based on the desired width
+var scaleX = w / (2 * Math.PI);
 
 var csvData = [];
 var selectedYear;
 var selectedLevel = "Short-cycle tertiary education";
+var playInterval;
+var playing = false;
+var formatValue = d3.format(","); // Format numbers with commas
+
 
 d3.csv("sorted.csv").then(function(csv) {
     
@@ -12,26 +16,22 @@ d3.csv("sorted.csv").then(function(csv) {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .style("background-color", "lightblue");
+        .style("background-color", "transparent");
     
     var g = svg.append("g");
 
-    // Define the range of years
     var years = d3.range(2013, 2022);
 
-    // Create an SVG element for the slider
     var svg1 = d3.select("#slide")
         .append("svg")
         .attr("width", 800)
         .attr("height", 100);
 
-    // Create a scale for the slider
     var xScale = d3.scaleLinear()
         .domain([2013, 2021])
         .range([50, 750])
         .clamp(true);
 
-    // Add ticks and labels
     svg1.selectAll("text")
         .data(years)
         .enter()
@@ -40,15 +40,16 @@ d3.csv("sorted.csv").then(function(csv) {
         .attr("y", 50)
         .attr("dy", "1em")
         .attr("text-anchor", "middle")
+        .attr("fill", "black")
         .text(function(d) { return d; });
 
     svg1.append("line")
-    .attr("x1", xScale.range()[0])
-    .attr("y1", 40)
-    .attr("x2", xScale.range()[1])
-    .attr("y2", 40)
-    .attr("stroke", "black")
-    .attr("stroke-width", 4);
+        .attr("x1", xScale.range()[0])
+        .attr("y1", 40)
+        .attr("x2", xScale.range()[1])
+        .attr("y2", 40)
+        .attr("stroke", "black")
+        .attr("stroke-width", 4);
 
     csv.forEach(function(d) {
         csvData.push({
@@ -56,24 +57,20 @@ d3.csv("sorted.csv").then(function(csv) {
             value: parseInt(d.sum),
             year: parseInt(d.year),
             level: d.edu_level
-        })
+        });
     });
-    //console.log(csvData);
-    
-    var color = d3.scaleQuantize()
-            .domain([1000, 10000, 100000, 1000000, 10000000])
-            .range(["#ff9800", "#ff8800", "#ff7800", "#ff6600", "#ff3800"]);
+
+    var color = d3.scaleQuantile()
+                .domain([0, 100, 1000, 10000, 50000])
+                .range(["#ff9800", "#ff8800", "#ff7800", "#ff3800"]);
 
     var projection = d3.geoMercator()
-        .center([0, 0]) // Center the map at the Pacific Ocean
-        .translate([w / 2, h / 2]) // Translate to the center of the SVG
-        //.scale(200); // Set the scale to stretch the map horizontally
+        .center([0, 0])
+        .translate([w / 2, h / 2]);
 
-    // Define path generator
     var path = d3.geoPath()
         .projection(projection);
     
-    // Create the tooltip
     var tooltip = d3.select("body")
         .append("div")
         .attr("class", "tooltip")
@@ -82,9 +79,8 @@ d3.csv("sorted.csv").then(function(csv) {
         .style("border", "1px solid black")
         .style("padding", "10px")
         .style("pointer-events", "none")
-        .style("display", "none"); // Hide initially
+        .style("display", "none");
 
-    // Attach mousemove event handler to update tooltip position
     svg.on("mousemove", function(event) {
         var mouseX = event.pageX;
         var mouseY = event.pageY;
@@ -92,10 +88,8 @@ d3.csv("sorted.csv").then(function(csv) {
                .style("top", (mouseY + 20) + "px");
     });
 
-    // Load JSON data
     d3.json("custom.json").then(function(json) {
         function updateMap() {
-            console.log(selectedLevel);
             for (var i = 0; i < csvData.length; i++) {
                 var dataCountry = csvData[i].country;
                 var dataValue = csvData[i].value;
@@ -103,48 +97,68 @@ d3.csv("sorted.csv").then(function(csv) {
                 var dataLevel = csvData[i].level;
 
                 for (var j = 0; j < json.features.length; j++) {
-                    var jsonCountry = json.features[j].properties.sovereignt;
+                    var jsonCountry = json.features[j].properties.admin;
 
                     if (dataCountry === jsonCountry && dataYear === selectedYear && dataLevel === selectedLevel) {
                         json.features[j].properties.value = dataValue;
-                    
                     }
                 }
             }
 
-            // Remove existing paths
-            g.selectAll("path").remove();
+            //g.selectAll("path").remove();
 
-            // Bind data and create paths
             g.selectAll("path")
                 .data(json.features)
                 .enter()
                 .append("path")
                 .attr("d", path)
                 .style("fill", function(d) {
-                    var value = d.properties.value;
-                    return value ? color(value) : "#E7EDD9";
+                    return color("#E7EDD9");
                 })
+                .attr("stroke", "black")
+                .attr("stroke-width", 0.3) // Adjust the width of the stroke
                 .on("mouseover", function(event, d) {
                     var value = d.properties.value ? d.properties.value : "N/A";
-                    tooltip.html("Country: " + d.properties.sovereignt + "<br/>Value: " + value)
-                           .style("display", "block");
+                    
+                    if(value != "N/A") {
+                        tooltip.transition()
+                            .duration(500)
+                            .tween("text", function() {
+                                var i = d3.interpolateNumber(0, value);
+                                return function(t) {
+                                    tooltip.html("Country: " + d.properties.admin + "<br/>Value: " + formatValue(Math.round(i(t))))
+                                        .style("display", "block");
+                                };
+                            });
+
+                    }else{
+                        tooltip.html("Country: " + d.properties.admin + "<br/>Value: " + value)
+                        tooltip.style("display", "block");
+                    }              
                 })
                 .on("mouseout", function() {
-                    tooltip.style("display", "none");
+                    tooltip.transition()
+                        .duration(0)
+                        .style("display", "none");
+                });
+
+            g.selectAll("path")
+                .transition()
+                .duration(500)
+                .style("fill", function(d) {
+                    var value = d.properties.value;
+                    return value ? color(value) : "#E7EDD9";
                 });
         }
 
-        // Initialize with the first year
         selectedYear = years[0];
         updateMap();
 
-        // Add a draggable circle
         var slider = svg1.append("circle")
             .attr("cx", xScale(selectedYear))
             .attr("cy", 40)
             .attr("r", 8)
-            .attr("fill", "red")
+            .attr("fill", "darkgreen")
             .call(d3.drag()
                 .on("drag", function(event) {
                     var xPos = event.x;
@@ -152,39 +166,46 @@ d3.csv("sorted.csv").then(function(csv) {
                     xPos = xPos > xScale.range()[1] ? xScale.range()[1] : xPos;
                     d3.select(this).attr("cx", xPos);
                 })
-            
-                .on("end", function() {
-                    d3.select(this).attr("fill", "red");
-                    selectedYear = Math.round(xScale.invert(d3.select(this).attr("cx")));
-                    
+                .on("end", function(event) {
+                    var xPos = event.x;
+                    var closestYear = Math.round(xScale.invert(xPos));
+                    closestYear = closestYear < 2013 ? 2013 : closestYear;
+                    closestYear = closestYear > 2021 ? 2021 : closestYear;
+                    selectedYear = closestYear;
+                    d3.select(this).attr("cx", xScale(selectedYear));
                     updateMap();
-
-                    // Redraw the map with updated values
-                    svg.selectAll("path")
-                    .data(json.features)
-                    .transition()
-                    .duration(750)
-                    .attr("fill", function(d) {
-                        var value = d.properties.value;
-                        return value ? color(value) : "#E7EDD9";
-                    });
                 })
             );
 
-        // Update map when dropdown selection changes
         d3.select("#education-level").on("change", function() {
             selectedLevel = this.value;
             updateMap();
+        });
 
-            // Redraw the map with updated values
-            svg.selectAll("path")
-            .data(json.features)
-            .transition()
-            .duration(750)
-            .attr("fill", function(d) {
-                var value = d.properties.value;
-                return value ? color(value) : "#E7EDD9";
-            });
+        d3.select("#play-button").on("click", function() {
+            if (!playing) {
+                playing = true;
+                d3.select(this).text("Pause");
+                function playNextYear() {
+                    var currentIndex = years.indexOf(selectedYear);
+                    if (currentIndex < years.length - 1) {
+                        selectedYear = years[currentIndex + 1];
+                    } else {
+                        playing = false;
+                        d3.select("#play-button").text("Play");
+                        return; // Stop playing when the last year is reached
+                    }
+                    slider.transition()
+                        .duration(500)
+                        .attr("cx", xScale(selectedYear));
+                    updateMap();
+                    d3.timeout(playNextYear, 2000); // 2 seconds interval for each year
+                }
+                playNextYear(); // Start the animation
+            } else {
+                playing = false;
+                d3.select(this).text("Play");
+            }
         });
 
     });
